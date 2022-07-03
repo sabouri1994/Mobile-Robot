@@ -1,0 +1,12 @@
+﻿"Symbol";"Value";"Unit";
+"OUTER_DIAMETER";"47";"";
+"REFERENCE";"6807-2RS";"";
+"INNER_DIAMETER";"35";"";
+"TraceParts.PartLanguage";"de";"";
+"TraceParts.InstanceId";"33-13092021-0544458T4E7L13I7YACZXNIL9OL1PF2";"";
+"TraceParts.PartNumber";"33-13092021-054445";"";
+"TraceParts.PartTitle";"Einreihige Rillenkugellager, Reihe 68, Außendurchmesser 47 mm, Innendurchmesser 35 mm - 6807-2RS";"";
+"SUPPLIER";"Hans Saurer Kugellager AG";"";
+"DESIGN";"Einreihige Rillenkugellager, Reihe 68, Außendurchmesser 47 mm, Innendurchmesser 35 mm - 6807-2RS";"";
+"TraceParts.PartVersion";"1.0.3";"";
+"WIDTH";"7";"";
