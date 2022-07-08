@@ -1,0 +1,14 @@
+﻿"Symbol";"Value";"Unit";
+"REFERENCE";"6807NSE";"";
+"LIMIT_SPEED";"13000";"";
+"TraceParts.PartVersion";"1.0.9";"";
+"SUPPLIER";"NACHI-Fujikoshi Corp.";"";
+"WIDTH";"7";"";
+"MASS";"0.029";"";
+"TraceParts.PartNumber";"33-23032021-071261";"";
+"TraceParts.PartLanguage";"en";"";
+"DESIGN";"Deep-Groove Ball Bearing One Contact Seal (NSE)  6807NSE";"";
+"TraceParts.InstanceId";"33-23032021-07126116GTJGJFVPRYKKQO5NDZ63FHZ";"";
+"TraceParts.PartTitle";"Deep-Groove Ball Bearings One Contact Seal (NSE)";"";
+"INNER_DIAMETER";"35";"";
+"OUTER_DIAMETER";"47";"";
