@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-03102006-094672";"";
+"REFERENCE";"DIN 472 - d1 47 - s 1,75";"";
+"STANDARD";"DIN 472";"";
+"TraceParts.PartTitle";"Circlips DIN 472 - 47 x 1.75";"";
+"TraceParts.InstanceId";"10-03102006-0946722276M13I6J80K706MDVSFUX1C";"";
+"DESIGN";"Circlips DIN 472 - 47 x 1.75";"";
+"TraceParts.PartVersion";"1.4.1";"";
+"TraceParts.PartLanguage";"en";"";
+"OMNICLASS23";"23.13.23.11.13.25";"";
