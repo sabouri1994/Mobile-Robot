@@ -1,0 +1,10 @@
+﻿"Symbol";"Value";"Unit";
+"TraceParts.PartNumber";"10-03102006-094672";"";
+"REFERENCE";"DIN 472 - d1 26 - s 1,2";"";
+"STANDARD";"DIN 472";"";
+"TraceParts.PartTitle";"Circlips DIN 472 - 26 x 1.2";"";
+"TraceParts.InstanceId";"10-03102006-094672DX11DDSWEF97HYXVB73SFPNIP";"";
+"DESIGN";"Circlips DIN 472 - 26 x 1.2";"";
+"TraceParts.PartVersion";"1.4.1";"";
+"TraceParts.PartLanguage";"en";"";
+"OMNICLASS23";"23.13.23.11.13.25";"";
