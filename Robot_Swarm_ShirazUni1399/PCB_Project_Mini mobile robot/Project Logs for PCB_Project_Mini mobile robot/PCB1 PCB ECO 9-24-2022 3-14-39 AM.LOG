@@ -1,0 +1,4 @@
+Removed Member From Class: ClassName=Sheet_1_Main_bord Member=U?
+Added Member To Class: ClassName=Sheet_1_Main_bord Member=Component * tb6612
+Added Member To Class: ClassName=Sheet_1_Main_bord Member=Component A? 113990105
+Added Room: Name=Sheet_1_Main_bord
