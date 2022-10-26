@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=Sda Pin=MPU6050-3
+Removed Pin From Net: NetName=Scl Pin=MPU6050-4
+Added Pin To Net: NetName=Scl Pin=MPU6050-3
+Added Pin To Net: NetName=Sda Pin=MPU6050-4

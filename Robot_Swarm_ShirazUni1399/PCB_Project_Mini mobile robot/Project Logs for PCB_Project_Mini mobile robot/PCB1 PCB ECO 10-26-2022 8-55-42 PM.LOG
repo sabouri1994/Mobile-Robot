@@ -1,0 +1,8 @@
+Change Component Comment : Designator=P3 Old Comment=Oled New Comment=
+Change Component Designator: OldDesignator=IC1 NewDesignator=IC1_5v
+Change Component Designator: OldDesignator=P1 NewDesignator=OLED
+Change Component Designator: OldDesignator=P2 NewDesignator=MPU6050
+Change Component Designator: OldDesignator=P3 NewDesignator=RX/TX
+Change Component Designator: OldDesignator=Power__BAT NewDesignator=Motor L
+Change Component Designator: OldDesignator=U2 NewDesignator=U2_3.3v
+Change Net Name : Old Net Name=NetP2_7 New Net Name=NetMPU6050_7
