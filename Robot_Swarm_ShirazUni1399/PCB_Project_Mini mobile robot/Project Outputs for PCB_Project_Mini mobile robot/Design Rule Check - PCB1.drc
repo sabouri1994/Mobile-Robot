@@ -1,0 +1,575 @@
+Protel Design System Design Rule Check
+PCB File : E:\GitHub\Mobile-Robot\Robot_Swarm_ShirazUni1399\PCB_Project_Mini mobile robot\PCB1.PcbDoc
+Date     : 11/3/2022
+Time     : 12:44:28 AM
+
+ERROR : More than 500 violations detected, DRC was stopped
+
+WARNING: Drilled SMT Pads found
+   Pad J1-14(103.378mm,46.99mm) on Bottom Layer
+   Pad J1-15(100.649mm,39.491mm) on Bottom Layer
+
+Processing Rule : Clearance Constraint (Gap=0.15mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.3mm) (Max=0.6mm) (Preferred=0.5mm) (Disabled)(InNetClass('Power_1'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.3mm) (Max=0.8mm) (Preferred=0.8mm) (InNetClass('Power_1'))
+   Violation between Width Constraint: Track (84.175mm,53.687mm)(84.175mm,55.037mm) on Bottom Layer Actual Width = 0.284mm, Target Width = 0.3mm
+   Violation between Width Constraint: Track (84.175mm,55.037mm)(84.906mm,55.769mm) on Bottom Layer Actual Width = 0.284mm, Target Width = 0.3mm
+   Violation between Width Constraint: Track (84.175mm,58.293mm)(84.175mm,59.357mm) on Bottom Layer Actual Width = 0.284mm, Target Width = 0.3mm
+   Violation between Width Constraint: Track (84.175mm,58.293mm)(85.852mm,58.293mm) on Bottom Layer Actual Width = 0.284mm, Target Width = 0.3mm
+   Violation between Width Constraint: Track (84.825mm,53.687mm)(84.825mm,54.599mm) on Bottom Layer Actual Width = 0.284mm, Target Width = 0.3mm
+   Violation between Width Constraint: Track (84.825mm,54.599mm)(85.287mm,55.061mm) on Bottom Layer Actual Width = 0.284mm, Target Width = 0.3mm
+   Violation between Width Constraint: Track (85.287mm,55.061mm)(86.358mm,55.061mm) on Bottom Layer Actual Width = 0.284mm, Target Width = 0.3mm
+   Violation between Width Constraint: Track (85.852mm,58.293mm)(86.125mm,58.566mm) on Bottom Layer Actual Width = 0.284mm, Target Width = 0.3mm
+   Violation between Width Constraint: Track (85.852mm,58.293mm)(87.439mm,58.293mm) on Bottom Layer Actual Width = 0.284mm, Target Width = 0.3mm
+   Violation between Width Constraint: Track (86.125mm,58.566mm)(86.125mm,59.357mm) on Bottom Layer Actual Width = 0.284mm, Target Width = 0.3mm
+   Violation between Width Constraint: Track (86.358mm,55.061mm)(86.775mm,54.644mm) on Bottom Layer Actual Width = 0.284mm, Target Width = 0.3mm
+   Violation between Width Constraint: Track (86.775mm,53.687mm)(86.775mm,54.644mm) on Bottom Layer Actual Width = 0.284mm, Target Width = 0.3mm
+   Violation between Width Constraint: Track (86.775mm,54.644mm)(86.944mm,54.813mm) on Bottom Layer Actual Width = 0.284mm, Target Width = 0.3mm
+   Violation between Width Constraint: Track (86.944mm,54.813mm)(93.321mm,54.813mm) on Bottom Layer Actual Width = 0.284mm, Target Width = 0.3mm
+   Violation between Width Constraint: Track (87.439mm,58.293mm)(88.075mm,57.657mm) on Bottom Layer Actual Width = 0.284mm, Target Width = 0.3mm
+   Violation between Width Constraint: Track (88.075mm,57.657mm)(88.075mm,59.357mm) on Bottom Layer Actual Width = 0.284mm, Target Width = 0.3mm
+Rule Violations :16
+
+Processing Rule : Width Constraint (Min=0.3mm) (Max=0.3mm) (Preferred=0.3mm) (All)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.4mm) (Max=0.4mm) (Preferred=0.4mm) (Disabled)(InNetClass('Power_2'))
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=0.18mm) (Max=0.2mm) (Preferred=0.2mm) (InNetClass('Signal'))
+Rule Violations :0
+
+Processing Rule : SMD To Corner (Distance=0.3mm) (All)
+   Violation between SMD To Corner Constraint: (0.001mm < 0.3mm) Between Pad *-10(51.151mm,73.925mm) on Top Layer And Track (51.151mm,73.925mm)(51.151mm,74.676mm) on Top Layer Actual Distance = 0.001mm
+   Violation between SMD To Corner Constraint: (0.206mm < 0.3mm) Between Pad *-15(51.151mm,66.675mm) on Top Layer And Track (51.151mm,65.719mm)(51.151mm,66.675mm) on Top Layer Actual Distance = 0.206mm
+   Violation between SMD To Corner Constraint: (0.007mm < 0.3mm) Between Pad *-19(53.751mm,66.675mm) on Top Layer And Track (53.751mm,65.918mm)(53.751mm,66.675mm) on Top Layer Actual Distance = 0.007mm
+   Violation between SMD To Corner Constraint: (0.164mm < 0.3mm) Between Pad *-21(55.051mm,66.675mm) on Top Layer And Track (55.051mm,65.761mm)(55.051mm,66.675mm) on Top Layer Actual Distance = 0.164mm
+   Violation between SMD To Corner Constraint: (0.196mm < 0.3mm) Between Pad *-23(56.351mm,66.675mm) on Top Layer And Track (56.351mm,65.729mm)(56.351mm,66.675mm) on Top Layer Actual Distance = 0.196mm
+   Violation between SMD To Corner Constraint: (0.237mm < 0.3mm) Between Pad *-24(57.001mm,66.675mm) on Top Layer And Track (57.001mm,65.688mm)(57.001mm,66.192mm) on Top Layer Actual Distance = 0.237mm
+   Violation between SMD To Corner Constraint: (0.023mm < 0.3mm) Between Pad *-4(55.051mm,73.925mm) on Top Layer And Track (55.051mm,73.152mm)(55.051mm,73.914mm) on Top Layer Actual Distance = 0.023mm
+   Violation between SMD To Corner Constraint: (0.059mm < 0.3mm) Between Pad *-9(51.801mm,73.925mm) on Top Layer And Track (51.801mm,73.116mm)(51.801mm,73.914mm) on Top Layer Actual Distance = 0.059mm
+   Violation between SMD To Corner Constraint: (0.207mm < 0.3mm) Between Pad C10-1(34.036mm,52.569mm) on Top Layer And Track (34.036mm,49.962mm)(34.036mm,52.569mm) on Top Layer Actual Distance = 0.207mm
+   Violation between SMD To Corner Constraint: (0.234mm < 0.3mm) Between Pad C13-1(47.041mm,93.218mm) on Top Layer And Track (47.041mm,93.218mm)(47.041mm,94.15mm) on Top Layer Actual Distance = 0.234mm
+   Violation between SMD To Corner Constraint: (0.064mm < 0.3mm) Between Pad C17-2(26.162mm,100.254mm) on Top Layer And Track (25.4mm,100.254mm)(26.162mm,100.254mm) on Top Layer Actual Distance = 0.064mm
+   Violation between SMD To Corner Constraint: (0.165mm < 0.3mm) Between Pad C17-2(26.162mm,100.254mm) on Top Layer And Track (26.162mm,100.254mm)(27.026mm,100.254mm) on Top Layer Actual Distance = 0.165mm
+   Violation between SMD To Corner Constraint: (0.114mm < 0.3mm) Between Pad C2-1(70.917mm,97.028mm) on Top Layer And Track (70.917mm,97.028mm)(70.917mm,97.841mm) on Top Layer Actual Distance = 0.114mm
+   Violation between SMD To Corner Constraint: (0.216mm < 0.3mm) Between Pad C21-2(60.376mm,59.817mm) on Bottom Layer And Track (60.376mm,58.903mm)(60.376mm,59.817mm) on Bottom Layer Actual Distance = 0.216mm
+   Violation between SMD To Corner Constraint: (0.216mm < 0.3mm) Between Pad C23_S1-2(57.074mm,105.791mm) on Top Layer And Track (57.074mm,104.877mm)(57.074mm,105.791mm) on Top Layer Actual Distance = 0.216mm
+   Violation between SMD To Corner Constraint: (0.241mm < 0.3mm) Between Pad C23_S3-1(5.461mm,57.988mm) on Top Layer And Track (5.461mm,57.988mm)(6.401mm,57.988mm) on Top Layer Actual Distance = 0.241mm
+   Violation between SMD To Corner Constraint: (0.14mm < 0.3mm) Between Pad C23_S3-2(5.461mm,59.868mm) on Top Layer And Track (5.461mm,59.868mm)(6.299mm,59.868mm) on Top Layer Actual Distance = 0.14mm
+   Violation between SMD To Corner Constraint: (0.18mm < 0.3mm) Between Pad C23_S5-1(50.368mm,7.62mm) on Top Layer And Track (49.733mm,6.807mm)(50.368mm,7.442mm) on Top Layer Actual Distance = 0.18mm
+   Violation between SMD To Corner Constraint: (0.102mm < 0.3mm) Between Pad C23_S5-1(50.368mm,7.62mm) on Top Layer And Track (49.759mm,8.103mm)(50.368mm,8.103mm) on Top Layer Actual Distance = 0.102mm
+   Violation between SMD To Corner Constraint: (0.14mm < 0.3mm) Between Pad C23_S7-2(102.489mm,53.289mm) on Top Layer And Track (101.651mm,53.289mm)(102.489mm,53.289mm) on Top Layer Actual Distance = 0.14mm
+   Violation between SMD To Corner Constraint: (0.053mm < 0.3mm) Between Pad C23_S8-1(91.139mm,89.125mm) on Top Layer And Track (91.034mm,89.814mm)(91.139mm,89.709mm) on Top Layer Actual Distance = 0.053mm
+   Violation between SMD To Corner Constraint: (0.19mm < 0.3mm) Between Pad C24_S1-1(52.502mm,105.791mm) on Top Layer And Track (52.502mm,104.902mm)(52.502mm,105.791mm) on Top Layer Actual Distance = 0.19mm
+   Violation between SMD To Corner Constraint: (0.23mm < 0.3mm) Between Pad C24_S2-2(16.861mm,89.251mm) on Top Layer And Track (16.861mm,89.251mm)(16.861mm,90.2mm) on Top Layer Actual Distance = 0.23mm
+   Violation between SMD To Corner Constraint: (0.19mm < 0.3mm) Between Pad C24_S3-1(5.461mm,53.416mm) on Top Layer And Track (5.461mm,53.416mm)(6.35mm,53.416mm) on Top Layer Actual Distance = 0.19mm
+   Violation between SMD To Corner Constraint: (0.23mm < 0.3mm) Between Pad C24_S4-2(21.874mm,20.036mm) on Top Layer And Track (20.925mm,20.036mm)(21.874mm,20.036mm) on Top Layer Actual Distance = 0.23mm
+   Violation between SMD To Corner Constraint: (0.157mm < 0.3mm) Between Pad C24_S6-2(90.454mm,24.541mm) on Top Layer And Track (90.454mm,23.665mm)(90.454mm,24.541mm) on Top Layer Actual Distance = 0.157mm
+   Violation between SMD To Corner Constraint: (0.114mm < 0.3mm) Between Pad C24_S7-1(102.489mm,57.861mm) on Top Layer And Track (101.676mm,57.861mm)(102.489mm,57.861mm) on Top Layer Actual Distance = 0.114mm
+   Violation between SMD To Corner Constraint: (0.239mm < 0.3mm) Between Pad C26-1(91.44mm,57.657mm) on Top Layer And Track (90.551mm,57.657mm)(91.44mm,57.657mm) on Top Layer Actual Distance = 0.239mm
+   Violation between SMD To Corner Constraint: (0.22mm < 0.3mm) Between Pad C27-1(96.393mm,48.513mm) on Top Layer And Track (95.523mm,48.532mm)(96.393mm,48.513mm) on Top Layer Actual Distance = 0.22mm
+   Violation between SMD To Corner Constraint: (0.201mm < 0.3mm) Between Pad C27-1(96.393mm,48.513mm) on Top Layer And Track (95.542mm,48.513mm)(96.393mm,48.513mm) on Top Layer Actual Distance = 0.201mm
+   Violation between SMD To Corner Constraint: (0.112mm < 0.3mm) Between Pad C28-1(89.662mm,57.657mm) on Top Layer And Track (88.9mm,57.657mm)(89.662mm,57.657mm) on Top Layer Actual Distance = 0.112mm
+   Violation between SMD To Corner Constraint: (0.239mm < 0.3mm) Between Pad C28-1(89.662mm,57.657mm) on Top Layer And Track (89.662mm,57.657mm)(90.551mm,57.657mm) on Top Layer Actual Distance = 0.239mm
+   Violation between SMD To Corner Constraint: (0.241mm < 0.3mm) Between Pad C3-1(70.917mm,106.934mm) on Top Layer And Track (70.917mm,106.934mm)(70.917mm,107.874mm) on Top Layer Actual Distance = 0.241mm
+   Violation between SMD To Corner Constraint: (0.133mm < 0.3mm) Between Pad C5-2(68.816mm,86.36mm) on Top Layer And Track (68.816mm,86.36mm)(71.349mm,86.36mm) on Top Layer Actual Distance = 0.133mm
+   Violation between SMD To Corner Constraint: (0.1mm < 0.3mm) Between Pad C6-+(78.994mm,96.52mm) on Top Layer And Track (78.994mm,94.92mm)(78.994mm,96.52mm) on Top Layer Actual Distance = 0.1mm
+   Violation between SMD To Corner Constraint: (0.122mm < 0.3mm) Between Pad Charger-3(13.201mm,38.774mm) on Multi-Layer And Track (13.201mm,39.325mm)(13.201mm,40.494mm) on Bottom Layer Actual Distance = 0.122mm
+   Violation between SMD To Corner Constraint: (0.093mm < 0.3mm) Between Pad D1-2(73.319mm,11.126mm) on Top Layer And Track (73.319mm,11.126mm)(74.422mm,11.126mm) on Top Layer Actual Distance = 0.093mm
+   Violation between SMD To Corner Constraint: (0.062mm < 0.3mm) Between Pad D1-5(78.319mm,11.126mm) on Top Layer And Track (78.816mm,11.126mm)(79.222mm,11.532mm) on Top Layer Actual Distance = 0.062mm
+   Violation between SMD To Corner Constraint: (0.251mm < 0.3mm) Between Pad D1-6(78.419mm,12.826mm) on Top Layer And Track (78.419mm,12.826mm)(79.68mm,12.826mm) on Top Layer Actual Distance = 0.251mm
+   Violation between SMD To Corner Constraint: (0.24mm < 0.3mm) Between Pad D2-K(19.709mm,44.577mm) on Bottom Layer And Track (18.453mm,44.577mm)(19.709mm,44.577mm) on Bottom Layer Actual Distance = 0.24mm
+   Violation between SMD To Corner Constraint: (0.223mm < 0.3mm) Between Pad D3-K(25.954mm,23.622mm) on Bottom Layer And Track (26.055mm,23.52mm)(26.462mm,23.114mm) on Bottom Layer Actual Distance = 0.223mm
+   Violation between SMD To Corner Constraint: (0.099mm < 0.3mm) Between Pad D5-2(69.85mm,46.609mm) on Top Layer And Track (68.971mm,46.609mm)(69.85mm,46.609mm) on Top Layer Actual Distance = 0.099mm
+   Violation between SMD To Corner Constraint: (0.088mm < 0.3mm) Between Pad F1-2(65.913mm,94.054mm) on Top Layer And Track (65.198mm,93.339mm)(65.913mm,94.054mm) on Top Layer Actual Distance = 0.088mm
+   Violation between SMD To Corner Constraint: (0.035mm < 0.3mm) Between Pad J1-12(98.665mm,35.212mm) on Bottom Layer And Track (97.46mm,35.212mm)(98.665mm,35.212mm) on Bottom Layer Actual Distance = 0.035mm
+   Violation between SMD To Corner Constraint: (0.165mm < 0.3mm) Between Pad J1-2(91.466mm,44.962mm) on Bottom Layer And Track (90.449mm,44.962mm)(91.466mm,44.962mm) on Bottom Layer Actual Distance = 0.165mm
+   Violation between SMD To Corner Constraint: (0.086mm < 0.3mm) Between Pad J1-3(91.842mm,45.996mm) on Bottom Layer And Track (91.842mm,45.996mm)(92.489mm,45.349mm) on Bottom Layer Actual Distance = 0.086mm
+   Violation between SMD To Corner Constraint: (0.033mm < 0.3mm) Between Pad J1-4(92.218mm,47.029mm) on Bottom Layer And Track (92.218mm,47.029mm)(93.102mm,47.029mm) on Bottom Layer Actual Distance = 0.033mm
+   Violation between SMD To Corner Constraint: (0.267mm < 0.3mm) Between Pad J1-6(92.971mm,49.097mm) on Bottom Layer And Track (91.897mm,49.25mm)(92.971mm,49.097mm) on Bottom Layer Actual Distance = 0.267mm
+   Violation between SMD To Corner Constraint: (0.15mm < 0.3mm) Between Pad LED_5V-A(34.671mm,47.752mm) on Top Layer And Track (33.883mm,47.752mm)(34.671mm,47.752mm) on Top Layer Actual Distance = 0.15mm
+   Violation between SMD To Corner Constraint: (0.251mm < 0.3mm) Between Pad LED_5V-K(36.576mm,47.752mm) on Top Layer And Track (36.576mm,46.863mm)(36.576mm,47.752mm) on Top Layer Actual Distance = 0.251mm
+   Violation between SMD To Corner Constraint: (0.089mm < 0.3mm) Between Pad LED5_S3-1(8.382mm,57.658mm) on Multi-Layer And Track (8.382mm,57.658mm)(9.195mm,58.471mm) on Top Layer Actual Distance = 0.089mm
+   Violation between SMD To Corner Constraint: (0.076mm < 0.3mm) Between Pad Motor R-1(71.12mm,74.549mm) on Multi-Layer And Track (71.12mm,74.549mm)(71.928mm,73.741mm) on Bottom Layer Actual Distance = 0.076mm
+   Violation between SMD To Corner Constraint: (0.213mm < 0.3mm) Between Pad P4_S1-3(51.308mm,108.204mm) on Multi-Layer And Track (50.622mm,107.518mm)(51.308mm,108.204mm) on Top Layer Actual Distance = 0.213mm
+   Violation between SMD To Corner Constraint: (0.213mm < 0.3mm) Between Pad P4_S5-3(56.134mm,5.207mm) on Multi-Layer And Track (56.134mm,5.207mm)(56.82mm,5.893mm) on Top Layer Actual Distance = 0.213mm
+   Violation between SMD To Corner Constraint: (0.034mm < 0.3mm) Between Pad P4_S7-3(105.029mm,59.182mm) on Multi-Layer And Track (104.47mm,59.741mm)(105.029mm,59.182mm) on Top Layer Actual Distance = 0.034mm
+   Violation between SMD To Corner Constraint: (0.153mm < 0.3mm) Between Pad Q2-E(52.705mm,30.175mm) on Top Layer And Track (52.705mm,30.175mm)(53.271mm,29.61mm) on Top Layer Actual Distance = 0.153mm
+   Violation between SMD To Corner Constraint: (0.254mm < 0.3mm) Between Pad Q3-B(91.567mm,67.945mm) on Bottom Layer And Track (90.856mm,67.945mm)(91.567mm,67.945mm) on Bottom Layer Actual Distance = 0.254mm
+   Violation between SMD To Corner Constraint: (0.051mm < 0.3mm) Between Pad Q4-C(54.737mm,27.559mm) on Top Layer And Track (54.051mm,27.559mm)(54.737mm,27.559mm) on Top Layer Actual Distance = 0.051mm
+   Violation between SMD To Corner Constraint: (0.096mm < 0.3mm) Between Pad Q5-1(35.814mm,26.035mm) on Multi-Layer And Track (35.814mm,24.689mm)(35.814mm,26.035mm) on Bottom Layer Actual Distance = 0.096mm
+   Violation between SMD To Corner Constraint: (0.222mm < 0.3mm) Between Pad Q6-1(21.59mm,32.258mm) on Multi-Layer And Track (21.59mm,30.786mm)(21.59mm,32.258mm) on Bottom Layer Actual Distance = 0.222mm
+   Violation between SMD To Corner Constraint: (0.013mm < 0.3mm) Between Pad Q6-2(19.05mm,32.258mm) on Multi-Layer And Track (19.05mm,32.258mm)(19.05mm,33.528mm) on Bottom Layer Actual Distance = 0.013mm
+   Violation between SMD To Corner Constraint: (0.251mm < 0.3mm) Between Pad Q8_S3-C(7.747mm,52.527mm) on Top Layer And Track (7.747mm,52.527mm)(8.382mm,53.162mm) on Top Layer Actual Distance = 0.251mm
+   Violation between SMD To Corner Constraint: (0.036mm < 0.3mm) Between Pad Q8_S3-E(9.779mm,53.467mm) on Top Layer And Track (9.779mm,53.467mm)(10.262mm,53.95mm) on Top Layer Actual Distance = 0.036mm
+   Violation between SMD To Corner Constraint: (0.251mm < 0.3mm) Between Pad Q8_S5-C(57.836mm,9.906mm) on Top Layer And Track (57.201mm,10.541mm)(57.836mm,9.906mm) on Top Layer Actual Distance = 0.251mm
+   Violation between SMD To Corner Constraint: (0.229mm < 0.3mm) Between Pad Q8_S7-E(97.79mm,59.639mm) on Top Layer And Track (97.104mm,59.639mm)(97.79mm,59.639mm) on Top Layer Actual Distance = 0.229mm
+   Violation between SMD To Corner Constraint: (0.127mm < 0.3mm) Between Pad Q8_S7-E(97.79mm,59.639mm) on Top Layer And Track (97.79mm,59.639mm)(98.374mm,59.639mm) on Top Layer Actual Distance = 0.127mm
+   Violation between SMD To Corner Constraint: (0.263mm < 0.3mm) Between Pad R11-1(48.768mm,35.687mm) on Top Layer And Track (48.768mm,34.774mm)(48.768mm,35.687mm) on Top Layer Actual Distance = 0.263mm
+   Violation between SMD To Corner Constraint: (0.098mm < 0.3mm) Between Pad R11-1(48.768mm,35.687mm) on Top Layer And Track (48.768mm,35.687mm)(48.768mm,36.435mm) on Top Layer Actual Distance = 0.098mm
+   Violation between SMD To Corner Constraint: (0.263mm < 0.3mm) Between Pad R12-1(48.768mm,32.004mm) on Top Layer And Track (48.768mm,31.091mm)(48.768mm,32.004mm) on Top Layer Actual Distance = 0.263mm
+   Violation between SMD To Corner Constraint: (0.211mm < 0.3mm) Between Pad R13-1(90.043mm,68.072mm) on Bottom Layer And Track (90.043mm,68.072mm)(90.729mm,68.072mm) on Bottom Layer Actual Distance = 0.211mm
+   Violation between SMD To Corner Constraint: (0.214mm < 0.3mm) Between Pad R13-2(88.393mm,68.072mm) on Bottom Layer And Track (88.393mm,68.072mm)(88.393mm,68.936mm) on Bottom Layer Actual Distance = 0.214mm
+   Violation between SMD To Corner Constraint: (0.214mm < 0.3mm) Between Pad R16-1(48.769mm,33.909mm) on Top Layer And Track (48.769mm,33.909mm)(48.769mm,34.773mm) on Top Layer Actual Distance = 0.214mm
+   Violation between SMD To Corner Constraint: (0.214mm < 0.3mm) Between Pad R17-1(48.769mm,30.226mm) on Top Layer And Track (48.769mm,30.226mm)(48.769mm,31.09mm) on Top Layer Actual Distance = 0.214mm
+   Violation between SMD To Corner Constraint: (0.263mm < 0.3mm) Between Pad R19-1(88.392mm,69.85mm) on Bottom Layer And Track (88.392mm,68.937mm)(88.392mm,69.85mm) on Bottom Layer Actual Distance = 0.263mm
+   Violation between SMD To Corner Constraint: (0.24mm < 0.3mm) Between Pad R20-1(38.354mm,20.574mm) on Bottom Layer And Track (37.464mm,20.574mm)(38.354mm,20.574mm) on Bottom Layer Actual Distance = 0.24mm
+   Violation between SMD To Corner Constraint: (0.24mm < 0.3mm) Between Pad R20-2(38.354mm,18.924mm) on Bottom Layer And Track (37.464mm,18.924mm)(38.354mm,18.924mm) on Bottom Layer Actual Distance = 0.24mm
+   Violation between SMD To Corner Constraint: (0.114mm < 0.3mm) Between Pad R2-2(21.768mm,35.306mm) on Bottom Layer And Track (21.768mm,34.493mm)(21.768mm,35.306mm) on Bottom Layer Actual Distance = 0.114mm
+   Violation between SMD To Corner Constraint: (0.212mm < 0.3mm) Between Pad R27-1(21.716mm,71.374mm) on Top Layer And Track (21.716mm,71.374mm)(22.403mm,71.374mm) on Top Layer Actual Distance = 0.212mm
+   Violation between SMD To Corner Constraint: (0.264mm < 0.3mm) Between Pad R27-2(20.066mm,71.374mm) on Top Layer And Track (20.066mm,71.374mm)(20.066mm,72.288mm) on Top Layer Actual Distance = 0.264mm
+   Violation between SMD To Corner Constraint: (0.264mm < 0.3mm) Between Pad R29-2(10.034mm,64.135mm) on Top Layer And Track (10.034mm,63.221mm)(10.034mm,64.135mm) on Top Layer Actual Distance = 0.264mm
+   Violation between SMD To Corner Constraint: (0.013mm < 0.3mm) Between Pad R3-1(85.217mm,15.037mm) on Top Layer And Track (84.506mm,15.037mm)(85.217mm,15.037mm) on Top Layer Actual Distance = 0.013mm
+   Violation between SMD To Corner Constraint: (0.267mm < 0.3mm) Between Pad R32-1(27.762mm,102.616mm) on Top Layer And Track (27.762mm,101.651mm)(27.762mm,102.616mm) on Top Layer Actual Distance = 0.267mm
+   Violation between SMD To Corner Constraint: (0.267mm < 0.3mm) Between Pad R32-2(29.642mm,102.616mm) on Top Layer And Track (29.642mm,101.651mm)(29.642mm,102.616mm) on Top Layer Actual Distance = 0.267mm
+   Violation between SMD To Corner Constraint: (0.112mm < 0.3mm) Between Pad R34-1(49.403mm,23.419mm) on Top Layer And Track (49.403mm,22.657mm)(49.403mm,23.419mm) on Top Layer Actual Distance = 0.112mm
+   Violation between SMD To Corner Constraint: (0.239mm < 0.3mm) Between Pad R35-1(86.614mm,44.196mm) on Top Layer And Track (86.614mm,43.307mm)(86.614mm,44.196mm) on Top Layer Actual Distance = 0.239mm
+   Violation between SMD To Corner Constraint: (0.186mm < 0.3mm) Between Pad R36-2(49.276mm,20.118mm) on Top Layer And Track (49.454mm,19.456mm)(49.454mm,20.118mm) on Top Layer Actual Distance = 0.186mm
+   Violation between SMD To Corner Constraint: (0.112mm < 0.3mm) Between Pad R36-2(49.276mm,20.118mm) on Top Layer And Track (49.454mm,20.118mm)(50.038mm,20.118mm) on Top Layer Actual Distance = 0.112mm
+   Violation between SMD To Corner Constraint: (0.16mm < 0.3mm) Between Pad R37-2(51.181mm,22.403mm) on Top Layer And Track (50.546mm,22.403mm)(51.181mm,22.403mm) on Top Layer Actual Distance = 0.16mm
+   Violation between SMD To Corner Constraint: (0.112mm < 0.3mm) Between Pad R39-2(27.686mm,78.359mm) on Top Layer And Track (27.686mm,78.359mm)(28.448mm,78.359mm) on Top Layer Actual Distance = 0.112mm
+   Violation between SMD To Corner Constraint: (0.013mm < 0.3mm) Between Pad R4-1(82.931mm,15.926mm) on Top Layer And Track (82.22mm,15.926mm)(82.931mm,15.926mm) on Top Layer Actual Distance = 0.013mm
+   Violation between SMD To Corner Constraint: (0.112mm < 0.3mm) Between Pad R44-1(49.529mm,59.69mm) on Bottom Layer And Track (49.529mm,59.75mm)(49.529mm,60.452mm) on Bottom Layer Actual Distance = 0.112mm
+   Violation between SMD To Corner Constraint: (0.061mm < 0.3mm) Between Pad R46-1(47.371mm,61.595mm) on Bottom Layer And Track (47.371mm,60.884mm)(47.371mm,61.595mm) on Bottom Layer Actual Distance = 0.061mm
+   Violation between SMD To Corner Constraint: (0.239mm < 0.3mm) Between Pad R47-2(81.915mm,79.501mm) on Top Layer And Track (81.026mm,79.501mm)(81.915mm,79.501mm) on Top Layer Actual Distance = 0.239mm
+   Violation between SMD To Corner Constraint: (0.026mm < 0.3mm) Between Pad R48_S2-2(24.033mm,90.902mm) on Top Layer And Track (23.288mm,90.902mm)(24.033mm,90.902mm) on Top Layer Actual Distance = 0.026mm
+   Violation between SMD To Corner Constraint: (0.018mm < 0.3mm) Between Pad R48_S4-2(20.223mm,27.335mm) on Top Layer And Track (20.223mm,26.598mm)(20.223mm,27.335mm) on Top Layer Actual Distance = 0.018mm
+   Violation between SMD To Corner Constraint: (0.073mm < 0.3mm) Between Pad R48_S6-2(83.282mm,23.017mm) on Top Layer And Track (83.282mm,23.017mm)(84.074mm,23.017mm) on Top Layer Actual Distance = 0.073mm
+   Violation between SMD To Corner Constraint: (0.262mm < 0.3mm) Between Pad R49_S7-2(96.266mm,61.595mm) on Top Layer And Track (96.266mm,61.595mm)(97.003mm,61.595mm) on Top Layer Actual Distance = 0.262mm
+   Violation between SMD To Corner Constraint: (0.188mm < 0.3mm) Between Pad R50_S5-2(56.896mm,13.589mm) on Top Layer And Track (56.058mm,13.589mm)(56.896mm,13.589mm) on Top Layer Actual Distance = 0.188mm
+   Violation between SMD To Corner Constraint: (0.185mm < 0.3mm) Between Pad R50_S7-2(96.266mm,59.817mm) on Top Layer And Track (96.266mm,59.817mm)(96.926mm,59.817mm) on Top Layer Actual Distance = 0.185mm
+   Violation between SMD To Corner Constraint: (0.244mm < 0.3mm) Between Pad R50_S8-1(80.899mm,88.138mm) on Top Layer And Track (80.899mm,88.138mm)(80.899mm,89.054mm) on Top Layer Actual Distance = 0.244mm
+   Violation between SMD To Corner Constraint: (0.239mm < 0.3mm) Between Pad R5-1(36.449mm,20.7mm) on Bottom Layer And Track (36.449mm,20.7mm)(37.338mm,20.7mm) on Bottom Layer Actual Distance = 0.239mm
+   Violation between SMD To Corner Constraint: (0.239mm < 0.3mm) Between Pad R5-2(36.449mm,19.05mm) on Bottom Layer And Track (36.449mm,19.05mm)(37.338mm,19.05mm) on Bottom Layer Actual Distance = 0.239mm
+   Violation between SMD To Corner Constraint: (0.163mm < 0.3mm) Between Pad R9-1(36.576mm,23.114mm) on Bottom Layer And Track (36.576mm,23.114mm)(36.576mm,23.927mm) on Bottom Layer Actual Distance = 0.163mm
+   Violation between SMD To Corner Constraint: (0.241mm < 0.3mm) Between Pad R9-2(34.926mm,23.114mm) on Bottom Layer And Track (34.926mm,22.223mm)(34.926mm,23.114mm) on Bottom Layer Actual Distance = 0.241mm
+   Violation between SMD To Corner Constraint: (0.271mm < 0.3mm) Between Pad RX/TX-2(70.739mm,28.448mm) on Multi-Layer And Track (70.012mm,27.721mm)(70.739mm,28.448mm) on Bottom Layer Actual Distance = 0.271mm
+   Violation between SMD To Corner Constraint: (0.031mm < 0.3mm) Between Pad S1-2(31.623mm,32.639mm) on Multi-Layer And Track (31.623mm,34.112mm)(31.676mm,34.165mm) on Bottom Layer Actual Distance = 0.031mm
+   Violation between SMD To Corner Constraint: (0.08mm < 0.3mm) Between Pad S4-2(33.027mm,82.296mm) on Top Layer And Track (33.96mm,82.296mm)(34.087mm,82.169mm) on Top Layer Actual Distance = 0.08mm
+   Violation between SMD To Corner Constraint: (0.034mm < 0.3mm) Between Pad SP1-2(87.376mm,73.025mm) on Multi-Layer And Track (87.376mm,71.984mm)(87.376mm,73.025mm) on Bottom Layer Actual Distance = 0.034mm
+   Violation between SMD To Corner Constraint: (0.121mm < 0.3mm) Between Pad U1-1(69.15mm,99.178mm) on Top Layer And Track (69.15mm,98.157mm)(69.15mm,99.178mm) on Top Layer Actual Distance = 0.121mm
+   Violation between SMD To Corner Constraint: (0.201mm < 0.3mm) Between Pad U1-3(71.69mm,99.178mm) on Top Layer And Track (71.69mm,99.178mm)(71.69mm,100.279mm) on Top Layer Actual Distance = 0.201mm
+   Violation between SMD To Corner Constraint: (0.125mm < 0.3mm) Between Pad U1-8(69.15mm,104.766mm) on Top Layer And Track (69.15mm,104.766mm)(69.15mm,105.791mm) on Top Layer Actual Distance = 0.125mm
+   Violation between SMD To Corner Constraint: (0.234mm < 0.3mm) Between Pad U3-11(66.675mm,38.975mm) on Multi-Layer And Track (65.467mm,38.975mm)(66.675mm,38.975mm) on Bottom Layer Actual Distance = 0.234mm
+   Violation between SMD To Corner Constraint: (0.079mm < 0.3mm) Between Pad U3-14(66.675mm,46.595mm) on Multi-Layer And Track (65.622mm,46.595mm)(66.675mm,46.595mm) on Bottom Layer Actual Distance = 0.079mm
+   Violation between SMD To Corner Constraint: (0.246mm < 0.3mm) Between Pad U3-25(41.275mm,26.275mm) on Multi-Layer And Track (41.275mm,26.275mm)(42.494mm,26.275mm) on Top Layer Actual Distance = 0.246mm
+   Violation between SMD To Corner Constraint: (0.084mm < 0.3mm) Between Pad U3-28(41.275mm,18.655mm) on Multi-Layer And Track (41.275mm,18.655mm)(42.023mm,17.907mm) on Bottom Layer Actual Distance = 0.084mm
+   Violation between SMD To Corner Constraint: (0.003mm < 0.3mm) Between Pad U3-29(41.275mm,16.115mm) on Multi-Layer And Track (40.298mm,16.115mm)(41.275mm,16.115mm) on Bottom Layer Actual Distance = 0.003mm
+   Violation between SMD To Corner Constraint: (0.199mm < 0.3mm) Between Pad U4-3(30.607mm,94.913mm) on Top Layer And Track (30.607mm,94.913mm)(30.607mm,96.012mm) on Top Layer Actual Distance = 0.199mm
+   Violation between SMD To Corner Constraint: (0.033mm < 0.3mm) Between Pad U4-7(29.337mm,100.413mm) on Top Layer And Track (29.337mm,100.413mm)(29.337mm,101.346mm) on Top Layer Actual Distance = 0.033mm
+   Violation between SMD To Corner Constraint: (0.033mm < 0.3mm) Between Pad U4-8(28.067mm,100.413mm) on Top Layer And Track (28.067mm,100.413mm)(28.067mm,101.346mm) on Top Layer Actual Distance = 0.033mm
+   Violation between SMD To Corner Constraint: (0.139mm < 0.3mm) Between Pad U5-1(81.153mm,47.143mm) on Top Layer And Track (81.153mm,45.898mm)(81.153mm,47.143mm) on Top Layer Actual Distance = 0.139mm
+   Violation between SMD To Corner Constraint: (0.164mm < 0.3mm) Between Pad U5-1(81.153mm,47.143mm) on Top Layer And Track (81.153mm,47.143mm)(81.153mm,48.412mm) on Top Layer Actual Distance = 0.164mm
+   Violation between SMD To Corner Constraint: (0.037mm < 0.3mm) Between Pad U5-11(84.963mm,51.943mm) on Top Layer And Track (84.963mm,50.8mm)(84.963mm,51.943mm) on Top Layer Actual Distance = 0.037mm
+   Violation between SMD To Corner Constraint: (0.139mm < 0.3mm) Between Pad U5-14(81.153mm,51.943mm) on Top Layer And Track (81.153mm,51.943mm)(81.153mm,53.188mm) on Top Layer Actual Distance = 0.139mm
+   Violation between SMD To Corner Constraint: (0.063mm < 0.3mm) Between Pad U5-3(83.693mm,47.143mm) on Top Layer And Track (83.693mm,45.974mm)(83.693mm,47.143mm) on Top Layer Actual Distance = 0.063mm
+   Violation between SMD To Corner Constraint: (0.063mm < 0.3mm) Between Pad U5-5(86.233mm,47.143mm) on Top Layer And Track (86.233mm,45.974mm)(86.233mm,47.143mm) on Top Layer Actual Distance = 0.063mm
+   Violation between SMD To Corner Constraint: (0.26mm < 0.3mm) Between Pad U5-8(88.773mm,51.943mm) on Top Layer And Track (88.773mm,51.943mm)(88.773mm,53.309mm) on Top Layer Actual Distance = 0.26mm
+   Violation between SMD To Corner Constraint: (0.203mm < 0.3mm) Between Pad U6-12(46.736mm,47.371mm) on Bottom Layer And Track (46.736mm,45.898mm)(46.736mm,47.371mm) on Bottom Layer Actual Distance = 0.203mm
+   Violation between SMD To Corner Constraint: (0.062mm < 0.3mm) Between Pad U6-14(48.006mm,56.859mm) on Bottom Layer And Track (48.006mm,56.859mm)(48.006mm,58.191mm) on Bottom Layer Actual Distance = 0.062mm
+   Violation between SMD To Corner Constraint: (0.141mm < 0.3mm) Between Pad U6-15(49.276mm,56.859mm) on Bottom Layer And Track (49.276mm,55.448mm)(49.276mm,56.859mm) on Bottom Layer Actual Distance = 0.141mm
+   Violation between SMD To Corner Constraint: (0.012mm < 0.3mm) Between Pad U6-15(49.276mm,56.859mm) on Bottom Layer And Track (49.276mm,56.859mm)(49.276mm,58.141mm) on Bottom Layer Actual Distance = 0.012mm
+   Violation between SMD To Corner Constraint: (0.253mm < 0.3mm) Between Pad U6-2(59.436mm,47.371mm) on Bottom Layer And Track (59.194mm,45.851mm)(59.436mm,47.371mm) on Bottom Layer Actual Distance = 0.253mm
+   Violation between SMD To Corner Constraint: (0.037mm < 0.3mm) Between Pad U6-24(60.706mm,56.859mm) on Bottom Layer And Track (60.706mm,56.859mm)(60.706mm,58.166mm) on Bottom Layer Actual Distance = 0.037mm
+   Violation between SMD To Corner Constraint: (0.127mm < 0.3mm) Between Pad U6-5(55.626mm,47.371mm) on Bottom Layer And Track (55.626mm,47.371mm)(55.626mm,48.768mm) on Bottom Layer Actual Distance = 0.127mm
+   Violation between SMD To Corner Constraint: (0.126mm < 0.3mm) Between Pad U7-1(75.946mm,33.922mm) on Top Layer And Track (75.946mm,32.69mm)(75.946mm,33.922mm) on Top Layer Actual Distance = 0.126mm
+   Violation between SMD To Corner Constraint: (0.025mm < 0.3mm) Between Pad U7-10(81.026mm,38.722mm) on Top Layer And Track (81.026mm,38.722mm)(81.026mm,39.853mm) on Top Layer Actual Distance = 0.025mm
+   Violation between SMD To Corner Constraint: (0.227mm < 0.3mm) Between Pad U7-14(75.946mm,38.722mm) on Top Layer And Track (75.946mm,37.389mm)(75.946mm,38.722mm) on Top Layer Actual Distance = 0.227mm
+   Violation between SMD To Corner Constraint: (0.195mm < 0.3mm) Between Pad U8-10(86.775mm,53.687mm) on Bottom Layer And Track (86.775mm,53.687mm)(86.775mm,54.644mm) on Bottom Layer Actual Distance = 0.195mm
+   Violation between SMD To Corner Constraint: (0.189mm < 0.3mm) Between Pad U8-11(86.125mm,53.687mm) on Bottom Layer And Track (86.125mm,52.736mm)(86.125mm,53.687mm) on Bottom Layer Actual Distance = 0.189mm
+   Violation between SMD To Corner Constraint: (0.093mm < 0.3mm) Between Pad U8-12(85.475mm,53.687mm) on Bottom Layer And Track (85.475mm,52.832mm)(85.475mm,53.687mm) on Bottom Layer Actual Distance = 0.093mm
+   Violation between SMD To Corner Constraint: (0.15mm < 0.3mm) Between Pad U8-13(84.825mm,53.687mm) on Bottom Layer And Track (84.825mm,53.687mm)(84.825mm,54.599mm) on Bottom Layer Actual Distance = 0.15mm
+   Violation between SMD To Corner Constraint: (0.029mm < 0.3mm) Between Pad U8-4(86.125mm,59.357mm) on Bottom Layer And Track (86.125mm,58.566mm)(86.125mm,59.357mm) on Bottom Layer Actual Distance = 0.029mm
+   Violation between SMD To Corner Constraint: (0.257mm < 0.3mm) Between Pad U8-5(86.775mm,59.357mm) on Bottom Layer And Track (86.775mm,59.357mm)(86.775mm,60.376mm) on Bottom Layer Actual Distance = 0.257mm
+   Violation between SMD To Corner Constraint: (0.257mm < 0.3mm) Between Pad U8-6(87.425mm,59.357mm) on Bottom Layer And Track (87.425mm,59.357mm)(87.425mm,60.376mm) on Bottom Layer Actual Distance = 0.257mm
+Rule Violations :143
+
+Processing Rule : SMD Neck-Down Constraint (Percent=80%) (All)
+   Violation between SMD Neck-Down Constraint: Between Pad C25--(98.679mm,42.418mm) on Top Layer And Track (96.622mm,42.418mm)(98.679mm,42.418mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad C25-+(93.091mm,42.418mm) on Top Layer And Track (93.091mm,42.418mm)(93.396mm,42.418mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad C26-1(91.44mm,57.657mm) on Top Layer And Track (89.662mm,57.657mm)(90.551mm,57.657mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad C26-2(91.44mm,56.007mm) on Top Layer And Track (91.44mm,56.007mm)(94.158mm,56.007mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad C27-1(96.393mm,48.513mm) on Top Layer And Track (95.542mm,48.513mm)(96.393mm,48.513mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad C27-2(96.393mm,46.863mm) on Top Layer And Track (96.393mm,46.863mm)(99.682mm,46.977mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad C28-1(89.662mm,57.657mm) on Top Layer And Track (88.075mm,57.657mm)(88.9mm,57.657mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad C28-2(89.662mm,56.007mm) on Top Layer And Track (89.662mm,56.007mm)(91.44mm,56.007mm) on Top Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad C6--(78.994mm,102.108mm) on Top Layer And Track (78.994mm,101.981mm)(78.994mm,102.108mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad C6-+(78.994mm,96.52mm) on Top Layer And Track (74.699mm,94.92mm)(78.994mm,94.92mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad D1-1(73.219mm,12.826mm) on Top Layer And Track (68.758mm,12.826mm)(73.219mm,12.826mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad D1-2(73.319mm,11.126mm) on Top Layer And Track (74.422mm,11.126mm)(74.778mm,10.77mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad D1-3(73.219mm,9.526mm) on Top Layer And Track (67.304mm,9.526mm)(73.219mm,9.526mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad D1-5(78.319mm,11.126mm) on Top Layer And Track (78.319mm,11.126mm)(78.816mm,11.126mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad D1-6(78.419mm,12.826mm) on Top Layer And Track (79.68mm,12.826mm)(80.772mm,13.918mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad D3-A(26.919mm,21.59mm) on Bottom Layer And Track (26.919mm,21.59mm)(26.919mm,21.653mm) on Bottom Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad IC1_5v-1(31.116mm,56.788mm) on Bottom Layer And Track (31.116mm,54.535mm)(31.116mm,56.788mm) on Bottom Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad IC1_5v-3(35.686mm,56.788mm) on Bottom Layer And Track (35.686mm,56.788mm)(36.932mm,56.788mm) on Bottom Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad Q1-B(52.705mm,35.763mm) on Top Layer And Track (51.587mm,35.763mm)(52.705mm,35.763mm) on Top Layer Relative Track Width: 87.49%
+   Violation between SMD Neck-Down Constraint: Between Pad Q1-E(52.705mm,33.858mm) on Top Layer And Track (51.587mm,33.858mm)(52.705mm,33.858mm) on Top Layer Relative Track Width: 87.49%
+   Violation between SMD Neck-Down Constraint: Between Pad Q2-B(52.705mm,32.08mm) on Top Layer And Track (51.587mm,32.08mm)(52.705mm,32.08mm) on Top Layer Relative Track Width: 87.49%
+   Violation between SMD Neck-Down Constraint: Between Pad Q2-E(52.705mm,30.175mm) on Top Layer And Track (51.587mm,30.175mm)(52.705mm,30.175mm) on Top Layer Relative Track Width: 87.49%
+   Violation between SMD Neck-Down Constraint: Between Pad Q3-B(91.567mm,67.945mm) on Bottom Layer And Track (90.043mm,68.072mm)(90.729mm,68.072mm) on Bottom Layer Relative Track Width: 87.49%
+   Violation between SMD Neck-Down Constraint: Between Pad Q3-E(91.567mm,69.85mm) on Bottom Layer And Track (90.042mm,69.85mm)(91.567mm,69.85mm) on Bottom Layer Relative Track Width: 87.49%
+   Violation between SMD Neck-Down Constraint: Between Pad Q4-B(52.705mm,28.524mm) on Top Layer And Track (51.664mm,28.524mm)(52.705mm,28.524mm) on Top Layer Relative Track Width: 87.49%
+   Violation between SMD Neck-Down Constraint: Between Pad Q4-E(52.705mm,26.619mm) on Top Layer And Track (51.638mm,26.619mm)(52.705mm,26.619mm) on Top Layer Relative Track Width: 87.49%
+   Violation between SMD Neck-Down Constraint: Between Pad Q7-B(54.483mm,22.352mm) on Top Layer And Track (53.619mm,22.403mm)(53.67mm,22.352mm) on Top Layer Relative Track Width: 87.49%
+   Violation between SMD Neck-Down Constraint: Between Pad Q7-E(54.483mm,20.447mm) on Top Layer And Track (53.619mm,20.498mm)(53.67mm,20.447mm) on Top Layer Relative Track Width: 87.49%
+   Violation between SMD Neck-Down Constraint: Between Pad Q8_S1-E(50.724mm,101.219mm) on Top Layer And Track (50.673mm,100.355mm)(50.724mm,100.406mm) on Top Layer Relative Track Width: 87.49%
+   Violation between SMD Neck-Down Constraint: Between Pad Q8_S2-C(17.915mm,86.955mm) on Top Layer And Track (17.915mm,86.955mm)(18.263mm,86.955mm) on Top Layer Relative Track Width: 87.49%
+   Violation between SMD Neck-Down Constraint: Between Pad Q8_S2-E(20.016mm,86.183mm) on Top Layer And Track (20.016mm,86.158mm)(20.016mm,86.183mm) on Top Layer Relative Track Width: 87.49%
+   Violation between SMD Neck-Down Constraint: Between Pad Q8_S3-E(9.779mm,53.467mm) on Top Layer And Track (10.592mm,53.467mm)(10.719mm,53.594mm) on Top Layer Relative Track Width: 87.49%
+   Violation between SMD Neck-Down Constraint: Between Pad Q8_S4-C(24.17mm,21.217mm) on Top Layer And Track (24.17mm,21.217mm)(24.17mm,21.565mm) on Top Layer Relative Track Width: 87.49%
+   Violation between SMD Neck-Down Constraint: Between Pad Q8_S5-E(56.896mm,11.938mm) on Top Layer And Track (56.896mm,11.938mm)(56.896mm,13.589mm) on Top Layer Relative Track Width: 87.49%
+   Violation between SMD Neck-Down Constraint: Between Pad Q8_S6-C(89.535mm,26.797mm) on Top Layer And Track (89.078mm,26.797mm)(89.535mm,26.797mm) on Top Layer Relative Track Width: 87.49%
+   Violation between SMD Neck-Down Constraint: Between Pad Q8_S6-E(87.434mm,27.569mm) on Top Layer And Track (87.391mm,27.569mm)(87.434mm,27.569mm) on Top Layer Relative Track Width: 87.49%
+   Violation between SMD Neck-Down Constraint: Between Pad Q8_S7-E(97.79mm,59.639mm) on Top Layer And Track (96.926mm,59.817mm)(97.104mm,59.639mm) on Top Layer Relative Track Width: 87.49%
+   Violation between SMD Neck-Down Constraint: Between Pad R11-2(50.418mm,35.687mm) on Top Layer And Track (50.418mm,35.687mm)(51.511mm,35.687mm) on Top Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R12-2(50.418mm,32.004mm) on Top Layer And Track (50.418mm,32.004mm)(51.511mm,32.004mm) on Top Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R13-1(90.043mm,68.072mm) on Bottom Layer And Track (90.043mm,68.072mm)(90.729mm,68.072mm) on Bottom Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R14-2(50.546mm,28.448mm) on Top Layer And Track (50.546mm,28.448mm)(51.587mm,28.448mm) on Top Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R15-1(21.591mm,29.337mm) on Bottom Layer And Track (21.591mm,29.337mm)(21.591mm,30.785mm) on Bottom Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R16-2(50.419mm,33.909mm) on Top Layer And Track (50.419mm,33.909mm)(51.537mm,33.909mm) on Top Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R17-2(50.419mm,30.226mm) on Top Layer And Track (50.419mm,30.226mm)(51.537mm,30.226mm) on Top Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R18-2(50.546mm,26.67mm) on Top Layer And Track (50.546mm,26.67mm)(51.587mm,26.67mm) on Top Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R19-2(90.042mm,69.85mm) on Bottom Layer And Track (90.042mm,69.85mm)(91.567mm,69.85mm) on Bottom Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R20-2(38.354mm,18.924mm) on Bottom Layer And Track (37.338mm,19.05mm)(37.464mm,18.924mm) on Bottom Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R24-2(54.61mm,63.373mm) on Top Layer And Track (54.61mm,63.373mm)(54.61mm,64.846mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad R25-1(60.198mm,86.614mm) on Top Layer And Track (56.388mm,86.614mm)(60.198mm,86.614mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad R27-1(21.716mm,71.374mm) on Top Layer And Track (22.403mm,71.374mm)(22.657mm,71.12mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad R29-1(11.684mm,64.135mm) on Top Layer And Track (11.684mm,57.582mm)(11.684mm,64.135mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad R30-1(36.702mm,82.169mm) on Top Layer And Track (36.702mm,82.169mm)(36.702mm,86.741mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad R31-1(52.832mm,20.498mm) on Top Layer And Track (53.619mm,20.498mm)(53.67mm,20.447mm) on Top Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R33-2(86.486mm,42.291mm) on Top Layer And Track (86.486mm,42.291mm)(87.287mm,41.49mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad R34-2(47.753mm,23.419mm) on Top Layer And Track (47.753mm,24.384mm)(48.007mm,24.638mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad R35-2(88.264mm,44.196mm) on Top Layer And Track (88.264mm,42.468mm)(88.264mm,44.196mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad R37-1(52.831mm,22.403mm) on Top Layer And Track (53.619mm,22.403mm)(53.67mm,22.352mm) on Top Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R38-2(24.765mm,78.485mm) on Top Layer And Track (22.895mm,78.485mm)(24.765mm,78.485mm) on Top Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R39-2(27.686mm,78.359mm) on Top Layer And Track (26.288mm,78.359mm)(27.686mm,78.359mm) on Top Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R40-2(83.058mm,30.861mm) on Top Layer And Track (83.058mm,29.845mm)(84.328mm,28.575mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad R41-2(74.296mm,31.496mm) on Top Layer And Track (74.296mm,31.496mm)(74.296mm,35.509mm) on Top Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R42-1(47.499mm,41.783mm) on Bottom Layer And Track (47.499mm,41.783mm)(47.499mm,42.215mm) on Bottom Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R43-1(46.228mm,43.942mm) on Bottom Layer And Track (46.228mm,43.486mm)(46.228mm,43.942mm) on Bottom Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R44-1(49.529mm,59.69mm) on Bottom Layer And Track (49.529mm,59.75mm)(49.529mm,60.452mm) on Bottom Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad R45-2(79.502mm,79.502mm) on Top Layer And Track (79.502mm,79.502mm)(80.696mm,79.502mm) on Top Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R46-1(47.371mm,61.595mm) on Bottom Layer And Track (47.371mm,60.884mm)(47.371mm,61.595mm) on Bottom Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad R47-2(81.915mm,79.501mm) on Top Layer And Track (81.915mm,79.501mm)(81.915mm,84.303mm) on Top Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R49_S4-1(28.472mm,24.154mm) on Top Layer And Track (29.642mm,23.216mm)(29.642mm,24.435mm) on Top Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R50_S1-2(50.673mm,99.568mm) on Top Layer And Track (50.673mm,100.355mm)(50.724mm,100.406mm) on Top Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R50_S2-1(22.352mm,83.82mm) on Top Layer And Track (23.52mm,79.11mm)(23.52mm,84.582mm) on Top Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R50_S2-2(21.185mm,84.987mm) on Top Layer And Track (21.185mm,84.987mm)(21.185mm,84.988mm) on Top Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R50_S3-2(11.557mm,53.594mm) on Top Layer And Track (10.592mm,53.467mm)(10.719mm,53.594mm) on Top Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R50_S4-1(27.202mm,25.551mm) on Top Layer And Track (26.035mm,24.384mm)(26.035mm,28.524mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad R50_S4-2(26.035mm,24.384mm) on Top Layer And Track (26.008mm,24.384mm)(26.035mm,24.384mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad R50_S5-2(56.896mm,13.589mm) on Top Layer And Track (55.677mm,13.97mm)(56.058mm,13.589mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad R50_S6-1(85.193mm,29.742mm) on Top Layer And Track (84.328mm,28.575mm)(86.36mm,28.575mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad R50_S6-2(86.36mm,28.575mm) on Top Layer And Track (86.36mm,28.575mm)(86.385mm,28.575mm) on Top Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R50_S7-2(96.266mm,59.817mm) on Top Layer And Track (96.266mm,59.817mm)(96.926mm,59.817mm) on Top Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R50_S8-1(80.899mm,88.138mm) on Top Layer And Track (82.066mm,84.453mm)(82.066mm,89.305mm) on Top Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R50_S8-2(82.066mm,89.305mm) on Top Layer And Track (82.066mm,84.453mm)(82.066mm,89.305mm) on Top Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R5-2(36.449mm,19.05mm) on Bottom Layer And Track (37.338mm,19.05mm)(37.464mm,18.924mm) on Bottom Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R6-2(19.177mm,29.971mm) on Bottom Layer And Track (19.177mm,29.971mm)(19.177mm,31.039mm) on Bottom Layer Relative Track Width: 84.21%
+   Violation between SMD Neck-Down Constraint: Between Pad R7-1(99.822mm,71.121mm) on Top Layer And Track (98.756mm,71.121mm)(99.822mm,71.121mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad R7-2(99.822mm,72.771mm) on Top Layer And Track (94.996mm,72.771mm)(99.822mm,72.771mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad R9-1(36.576mm,23.114mm) on Bottom Layer And Track (36.576mm,23.114mm)(36.576mm,23.927mm) on Bottom Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad U1-1(69.15mm,99.178mm) on Top Layer And Track (69.037mm,98.044mm)(69.15mm,98.157mm) on Top Layer Relative Track Width: 149.98%
+   Violation between SMD Neck-Down Constraint: Between Pad U1-2(70.42mm,99.178mm) on Top Layer And Track (70.42mm,98.338mm)(70.42mm,99.178mm) on Top Layer Relative Track Width: 149.98%
+   Violation between SMD Neck-Down Constraint: Between Pad U1-3(71.69mm,99.178mm) on Top Layer And Track (71.69mm,99.178mm)(71.69mm,100.279mm) on Top Layer Relative Track Width: 149.98%
+   Violation between SMD Neck-Down Constraint: Between Pad U1-6(71.69mm,104.766mm) on Top Layer And Track (71.69mm,104.766mm)(71.69mm,106.167mm) on Top Layer Relative Track Width: 149.98%
+   Violation between SMD Neck-Down Constraint: Between Pad U1-7(70.42mm,104.766mm) on Top Layer And Track (70.42mm,104.766mm)(71.69mm,104.766mm) on Top Layer Relative Track Width: 149.98%
+   Violation between SMD Neck-Down Constraint: Between Pad U1-8(69.15mm,104.766mm) on Top Layer And Track (69.15mm,104.766mm)(69.15mm,105.791mm) on Top Layer Relative Track Width: 149.98%
+   Violation between SMD Neck-Down Constraint: Between Pad U2_3.3v-1(17.38mm,52.198mm) on Bottom Layer And Track (17.38mm,52.198mm)(19.38mm,52.198mm) on Bottom Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad U2_3.3v-3(17.38mm,56.768mm) on Bottom Layer And Track (17.38mm,56.768mm)(19.328mm,56.768mm) on Bottom Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad U4-3(30.607mm,94.913mm) on Top Layer And Track (30.607mm,96.012mm)(30.861mm,96.266mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad U4-4(31.877mm,94.913mm) on Top Layer And Track (31.877mm,87.946mm)(31.877mm,94.913mm) on Top Layer Relative Track Width: 80.00%
+   Violation between SMD Neck-Down Constraint: Between Pad U4-8(28.067mm,100.413mm) on Top Layer And Track (27.762mm,101.651mm)(27.762mm,102.616mm) on Top Layer Relative Track Width: 114.29%
+   Violation between SMD Neck-Down Constraint: Between Pad U5-14(81.153mm,51.943mm) on Top Layer And Track (81.153mm,51.943mm)(81.153mm,53.188mm) on Top Layer Relative Track Width: 133.33%
+   Violation between SMD Neck-Down Constraint: Between Pad U6-12(46.736mm,47.371mm) on Bottom Layer And Track (46.228mm,45.39mm)(46.736mm,45.898mm) on Bottom Layer Relative Track Width: 131.23%
+   Violation between SMD Neck-Down Constraint: Between Pad U6-15(49.276mm,56.859mm) on Bottom Layer And Track (49.276mm,58.141mm)(49.529mm,58.394mm) on Bottom Layer Relative Track Width: 131.23%
+   Violation between SMD Neck-Down Constraint: Between Pad U6-24(60.706mm,56.859mm) on Bottom Layer And Track (60.376mm,58.496mm)(60.376mm,58.903mm) on Bottom Layer Relative Track Width: 131.23%
+Rule Violations :100
+
+Processing Rule : SMD Entry (Side = Not Allowed) (Corner = Not Allowed) (Any Angle = Not Allowed) (Ignore First Corner = Allowed)
+   Violation between SMD Entry Constraint: Between Pad *-1(57.001mm,73.925mm) on Top Layer And Track (56.351mm,73.914mm)(57.001mm,73.914mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad *-10(51.151mm,73.925mm) on Top Layer And Track (51.151mm,73.914mm)(51.801mm,73.914mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad *-11(50.501mm,73.925mm) on Top Layer And Track (49.851mm,73.914mm)(50.501mm,73.914mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad *-12(49.851mm,73.925mm) on Top Layer And Track (49.851mm,73.914mm)(50.501mm,73.914mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad *-13(49.851mm,66.675mm) on Top Layer And Track (49.851mm,66.675mm)(50.501mm,66.675mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad *-14(50.501mm,66.675mm) on Top Layer And Track (49.851mm,66.675mm)(50.501mm,66.675mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad *-2(56.351mm,73.925mm) on Top Layer And Track (56.351mm,73.914mm)(57.001mm,73.914mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad *-24(57.001mm,66.675mm) on Top Layer And Track (57.001mm,66.192mm)(58.014mm,66.192mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad *-3(55.701mm,73.925mm) on Top Layer And Track (55.051mm,73.914mm)(55.701mm,73.914mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad *-4(55.051mm,73.925mm) on Top Layer And Track (55.051mm,73.914mm)(55.701mm,73.914mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad *-5(54.401mm,73.925mm) on Top Layer And Track (53.751mm,73.914mm)(54.401mm,73.914mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad *-6(53.751mm,73.925mm) on Top Layer And Track (53.751mm,73.914mm)(54.401mm,73.914mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad *-7(53.101mm,73.925mm) on Top Layer And Track (52.451mm,73.914mm)(53.101mm,73.914mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad *-8(52.451mm,73.925mm) on Top Layer And Track (52.451mm,73.914mm)(53.101mm,73.914mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad *-9(51.801mm,73.925mm) on Top Layer And Track (51.151mm,73.914mm)(51.801mm,73.914mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C10-1(34.036mm,52.569mm) on Top Layer And Track (32.325mm,52.569mm)(34.036mm,52.569mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C10-2(34.036mm,60.969mm) on Top Layer And Track (30.677mm,63.043mm)(34.036mm,63.043mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C1-1(73.533mm,93.8mm) on Top Layer And Track (73.579mm,93.8mm)(74.699mm,94.92mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C1-2(73.533mm,96.7mm) on Top Layer And Track (72.06mm,97.028mm)(72.388mm,96.7mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad C12-2(35.179mm,42.418mm) on Top Layer And Track (35.179mm,42.418mm)(37.02mm,40.577mm) on Top Layer Track Entry to PAD from corner
+   Violation between SMD Entry Constraint: Between Pad C13-1(47.041mm,93.218mm) on Top Layer And Track (47.041mm,94.15mm)(47.498mm,93.693mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad C13-1(47.041mm,93.218mm) on Top Layer And Track (47.498mm,90.17mm)(47.498mm,92.52mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad C14-2(17.009mm,56.515mm) on Top Layer And Track (17.047mm,56.515mm)(17.047mm,59.983mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C15-2(35.052mm,45.339mm) on Top Layer And Track (35.052mm,45.339mm)(36.576mm,46.863mm) on Top Layer Track Entry to PAD from corner
+   Violation between SMD Entry Constraint: Between Pad C17-1(26.162mm,98.374mm) on Top Layer And Track (26.162mm,93.751mm)(26.162mm,98.374mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C18-2(73.787mm,35.509mm) on Top Layer And Track (74.296mm,31.496mm)(74.296mm,35.509mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C2-1(70.917mm,97.028mm) on Top Layer And Track (70.917mm,97.028mm)(72.06mm,97.028mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C21-1(58.496mm,59.817mm) on Bottom Layer And Track (53.991mm,59.817mm)(58.496mm,59.817mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C2-2(69.037mm,97.028mm) on Top Layer And Track (67.511mm,97.028mm)(69.037mm,97.028mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C22-1(81.026mm,54.559mm) on Top Layer And Track (81.026mm,53.315mm)(81.026mm,54.559mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C22-2(81.026mm,56.439mm) on Top Layer And Track (81.026mm,56.439mm)(81.026mm,62.154mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C23_S1-1(55.194mm,105.791mm) on Top Layer And Track (52.502mm,105.791mm)(55.194mm,105.791mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C23_S2-2(21.493mm,93.756mm) on Top Layer And Track (21.493mm,93.591mm)(22.703mm,92.38mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad C23_S4-1(18.699mm,23.465mm) on Top Layer And Track (18.699mm,21.402mm)(18.699mm,23.465mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C23_S5-1(50.368mm,7.62mm) on Top Layer And Track (47.498mm,7.62mm)(50.368mm,7.62mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C23_S5-1(50.368mm,7.62mm) on Top Layer And Track (49.733mm,6.807mm)(50.368mm,7.442mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C23_S5-1(50.368mm,7.62mm) on Top Layer And Track (49.759mm,8.103mm)(50.368mm,8.103mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C23_S5-2(52.248mm,7.62mm) on Top Layer And Track (50.546mm,9.449mm)(52.248mm,7.747mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C23_S6-1(87.279mm,21.493mm) on Top Layer And Track (87.279mm,21.493mm)(89.124mm,21.493mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C23_S7-1(102.489mm,55.169mm) on Top Layer And Track (102.489mm,55.169mm)(102.489mm,57.861mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C23_S8-1(91.139mm,89.125mm) on Top Layer And Track (91.034mm,89.814mm)(91.139mm,89.709mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C23_S8-1(91.139mm,89.125mm) on Top Layer And Track (91.139mm,83.417mm)(91.139mm,89.125mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C24_S1-1(52.502mm,105.791mm) on Top Layer And Track (52.502mm,105.791mm)(55.194mm,105.791mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C24_S2-2(16.861mm,89.251mm) on Top Layer And Track (16.861mm,89.251mm)(16.861mm,90.2mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C24_S4-1(20.544mm,21.366mm) on Top Layer And Track (18.662mm,21.366mm)(20.544mm,21.366mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C24_S6-1(89.124mm,23.211mm) on Top Layer And Track (89.124mm,21.493mm)(89.124mm,23.211mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C24_S7-1(102.489mm,57.861mm) on Top Layer And Track (101.301mm,58.685mm)(102.489mm,57.861mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad C24_S7-1(102.489mm,57.861mm) on Top Layer And Track (102.489mm,55.169mm)(102.489mm,57.861mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C24_S8-2(86.507mm,93.756mm) on Top Layer And Track (86.507mm,93.756mm)(87.533mm,93.756mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C25-+(93.091mm,42.418mm) on Top Layer And Track (93.396mm,42.418mm)(93.396mm,44.323mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C27-1(96.393mm,48.513mm) on Top Layer And Track (95.523mm,48.532mm)(96.393mm,48.513mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad C27-2(96.393mm,46.863mm) on Top Layer And Track (96.393mm,46.863mm)(99.682mm,46.977mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad C3-1(70.917mm,106.934mm) on Top Layer And Track (71.221mm,106.636mm)(71.69mm,106.167mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C3-2(69.037mm,106.934mm) on Top Layer And Track (68.072mm,106.934mm)(69.037mm,106.934mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C4-1(23.495mm,47.253mm) on Top Layer And Track (23.495mm,47.253mm)(26.585mm,47.253mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C4-2(23.495mm,38.853mm) on Top Layer And Track (23.495mm,36.855mm)(35.56mm,36.855mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C5-1(77.216mm,86.36mm) on Top Layer And Track (75.895mm,83.896mm)(75.895mm,86.36mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C5-2(68.816mm,86.36mm) on Top Layer And Track (68.816mm,81.695mm)(68.816mm,86.36mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad C6--(78.994mm,102.108mm) on Top Layer And Track (74.231mm,101.981mm)(78.994mm,101.981mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad D1-5(78.319mm,11.126mm) on Top Layer And Track (79.222mm,11.532mm)(81.28mm,11.532mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad D2-K(19.709mm,44.577mm) on Bottom Layer And Track (18.453mm,44.577mm)(19.709mm,44.577mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad D3-A(26.919mm,21.59mm) on Bottom Layer And Track (26.919mm,21.653mm)(27.979mm,21.653mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad D3-K(25.954mm,23.622mm) on Bottom Layer And Track (26.055mm,23.52mm)(26.462mm,23.114mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad D3-K(25.954mm,23.622mm) on Bottom Layer And Track (26.055mm,23.52mm)(33.528mm,23.52mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad D4-A(30.861mm,19.915mm) on Bottom Layer And Track (27.979mm,21.653mm)(29.717mm,19.915mm) on Bottom Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad D4-K(30.861mm,13.081mm) on Bottom Layer And Track (30.861mm,11.45mm)(30.861mm,13.081mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad D5-1(69.85mm,48.509mm) on Top Layer And Track (69.85mm,48.509mm)(69.85mm,61.671mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad D5-3(72.25mm,47.559mm) on Top Layer And Track (72.25mm,38.797mm)(72.25mm,47.559mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad F1-2(65.913mm,94.054mm) on Top Layer And Track (65.198mm,93.339mm)(65.913mm,94.054mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad F3-1(38.227mm,53.922mm) on Bottom Layer And Track (38.227mm,45.441mm)(38.227mm,53.922mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad F4-1(24.257mm,61.648mm) on Bottom Layer And Track (24.994mm,61.648mm)(28.981mm,65.636mm) on Bottom Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad F4-2(24.257mm,58.748mm) on Bottom Layer And Track (24.13mm,54.483mm)(24.13mm,58.748mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad IC1_5v-3(35.686mm,56.788mm) on Bottom Layer And Track (35.686mm,56.788mm)(36.932mm,56.788mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad IC1_5v-4(33.401mm,50.038mm) on Bottom Layer And Track (28.73mm,50.643mm)(33.401mm,50.643mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad J1-10(94.98mm,53.154mm) on Bottom Layer And Track (92.202mm,53.975mm)(94.569mm,53.565mm) on Bottom Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad J1-10(94.98mm,53.154mm) on Bottom Layer And Track (93.321mm,54.813mm)(94.569mm,53.565mm) on Bottom Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad J1-11(103.967mm,49.777mm) on Bottom Layer And Track (100.045mm,49.777mm)(103.967mm,49.777mm) on Bottom Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad J1-12(98.665mm,35.212mm) on Bottom Layer And Track (97.46mm,35.212mm)(98.665mm,35.212mm) on Bottom Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad J1-13(89.952mm,39.341mm) on Bottom Layer And Track (89.952mm,39.341mm)(92.02mm,39.341mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad J1-2(91.466mm,44.962mm) on Bottom Layer And Track (90.449mm,44.962mm)(91.466mm,44.962mm) on Bottom Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad J1-3(91.842mm,45.996mm) on Bottom Layer And Track (91.842mm,45.996mm)(92.489mm,45.349mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad J1-4(92.218mm,47.029mm) on Bottom Layer And Track (92.218mm,47.029mm)(93.102mm,47.029mm) on Bottom Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad J1-5(92.595mm,48.063mm) on Bottom Layer And Track (92.595mm,48.063mm)(104.425mm,48.063mm) on Bottom Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad J1-6(92.971mm,49.097mm) on Bottom Layer And Track (92.971mm,49.097mm)(99.364mm,49.097mm) on Bottom Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad J1-7(93.347mm,50.13mm) on Bottom Layer And Track (93.347mm,50.13mm)(94.742mm,50.13mm) on Bottom Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad LED2-A(27.686mm,72.707mm) on Top Layer And Track (27.686mm,72.707mm)(28.88mm,71.514mm) on Top Layer Track Entry to PAD from corner
+   Violation between SMD Entry Constraint: Between Pad LED-VCC-K(37.02mm,38.862mm) on Top Layer And Track (37.294mm,38.589mm)(38.176mm,37.706mm) on Top Layer Track Entry to PAD from corner
+   Violation between SMD Entry Constraint: Between Pad Q1-C(54.737mm,34.798mm) on Top Layer And Track (54.737mm,34.798mm)(54.737mm,35.991mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad Q1-E(52.705mm,33.858mm) on Top Layer And Track (52.705mm,33.858mm)(53.569mm,32.995mm) on Top Layer Track Entry to PAD from corner
+   Violation between SMD Entry Constraint: Between Pad Q2-E(52.705mm,30.175mm) on Top Layer And Track (52.705mm,30.175mm)(53.271mm,29.61mm) on Top Layer Track Entry to PAD from corner
+   Violation between SMD Entry Constraint: Between Pad Q3-C(93.599mm,68.91mm) on Bottom Layer And Track (93.421mm,68.91mm)(93.421mm,71.725mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad Q8_S1-C(49.784mm,103.251mm) on Top Layer And Track (48.362mm,102.921mm)(49.784mm,102.921mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad Q8_S1-E(50.724mm,101.219mm) on Top Layer And Track (50.724mm,101.219mm)(51.41mm,101.905mm) on Top Layer Track Entry to PAD from corner
+   Violation between SMD Entry Constraint: Between Pad Q8_S2-B(18.669mm,84.836mm) on Top Layer And Track (18.669mm,84.761mm)(19.661mm,83.769mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad Q8_S2-E(20.016mm,86.183mm) on Top Layer And Track (20.016mm,86.158mm)(21.185mm,84.988mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad Q8_S3-C(7.747mm,52.527mm) on Top Layer And Track (7.747mm,52.527mm)(8.382mm,53.162mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad Q8_S3-E(9.779mm,53.467mm) on Top Layer And Track (9.779mm,53.467mm)(10.262mm,53.95mm) on Top Layer Track Entry to PAD from corner
+   Violation between SMD Entry Constraint: Between Pad Q8_S4-C(24.17mm,21.217mm) on Top Layer And Track (22.352mm,23.382mm)(24.17mm,21.565mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad Q8_S5-C(57.836mm,9.906mm) on Top Layer And Track (57.201mm,10.541mm)(57.836mm,9.906mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad Q8_S6-B(88.781mm,28.916mm) on Top Layer And Track (87.757mm,29.821mm)(88.662mm,28.916mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad Q8_S6-E(87.434mm,27.569mm) on Top Layer And Track (86.385mm,28.575mm)(87.391mm,27.569mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad Q8_S7-C(99.822mm,60.579mm) on Top Layer And Track (99.644mm,60.579mm)(99.644mm,63.017mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad Q8_S8-B(81.838mm,91.771mm) on Top Layer And Track (80.696mm,92.837mm)(81.762mm,91.771mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad Q8_S8-E(83.185mm,90.424mm) on Top Layer And Track (82.066mm,89.328mm)(83.161mm,90.424mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad R10-2(36.576mm,14.224mm) on Bottom Layer And Track (35.103mm,14.224mm)(35.103mm,16.256mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R1-1(24.171mm,13.503mm) on Top Layer And Track (24.171mm,13.503mm)(24.171mm,17.745mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R11-2(50.418mm,35.687mm) on Top Layer And Track (50.418mm,35.687mm)(51.511mm,35.687mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R1-2(28.661mm,17.993mm) on Top Layer And Track (28.661mm,17.993mm)(30.48mm,17.993mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R12-1(48.768mm,32.004mm) on Top Layer And Track (46.939mm,33.833mm)(48.768mm,32.004mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R12-2(50.418mm,32.004mm) on Top Layer And Track (50.418mm,32.004mm)(51.511mm,32.004mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R13-1(90.043mm,68.072mm) on Bottom Layer And Track (90.043mm,68.072mm)(90.729mm,68.072mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R13-2(88.393mm,68.072mm) on Bottom Layer And Track (81.636mm,68.072mm)(88.393mm,68.072mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R14-2(50.546mm,28.448mm) on Top Layer And Track (50.546mm,28.448mm)(51.587mm,28.448mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R15-2(23.241mm,29.337mm) on Bottom Layer And Track (23.241mm,29.337mm)(32.436mm,29.337mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R16-2(50.419mm,33.909mm) on Top Layer And Track (50.419mm,33.909mm)(51.537mm,33.909mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R17-2(50.419mm,30.226mm) on Top Layer And Track (50.419mm,30.226mm)(51.537mm,30.226mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R18-2(50.546mm,26.67mm) on Top Layer And Track (50.546mm,26.67mm)(51.587mm,26.67mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R19-2(90.042mm,69.85mm) on Bottom Layer And Track (90.042mm,69.85mm)(91.567mm,69.85mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R20-2(38.354mm,18.924mm) on Bottom Layer And Track (38.354mm,18.059mm)(38.354mm,18.924mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R2-1(19.888mm,35.306mm) on Bottom Layer And Track (18.529mm,35.306mm)(19.888mm,35.306mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R21-1(32.944mm,38.862mm) on Top Layer And Track (32.944mm,38.862mm)(35.115mm,38.862mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R22-2(64.567mm,46.609mm) on Bottom Layer And Track (64.567mm,46.609mm)(65.608mm,46.609mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R23-2(64.186mm,38.862mm) on Bottom Layer And Track (64.186mm,38.862mm)(65.354mm,38.862mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R24-2(54.61mm,63.373mm) on Top Layer And Track (54.61mm,63.11mm)(61.828mm,63.11mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R25-2(60.198mm,88.264mm) on Top Layer And Track (60.198mm,88.264mm)(60.198mm,90.17mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R26-1(20.777mm,63.881mm) on Top Layer And Track (19.685mm,63.881mm)(20.777mm,63.881mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R27-1(21.716mm,71.374mm) on Top Layer And Track (21.716mm,71.374mm)(22.403mm,71.374mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R28-1(32.436mm,47.752mm) on Top Layer And Track (32.436mm,47.752mm)(33.159mm,47.028mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R30-2(35.052mm,82.169mm) on Top Layer And Track (34.087mm,82.169mm)(35.052mm,82.169mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R31-1(52.832mm,20.498mm) on Top Layer And Track (52.832mm,20.498mm)(53.619mm,20.498mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R31-2(51.182mm,20.498mm) on Top Layer And Track (50.418mm,20.498mm)(51.182mm,20.498mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R33-2(86.486mm,42.291mm) on Top Layer And Track (86.486mm,42.291mm)(87.287mm,41.49mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R36-1(49.276mm,21.768mm) on Top Layer And Track (49.276mm,21.768mm)(49.276mm,22.53mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R36-1(49.276mm,21.768mm) on Top Layer And Track (49.911mm,21.768mm)(50.546mm,22.403mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad R36-2(49.276mm,20.118mm) on Top Layer And Track (49.454mm,19.456mm)(49.454mm,20.118mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R37-1(52.831mm,22.403mm) on Top Layer And Track (52.831mm,22.403mm)(53.619mm,22.403mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R37-2(51.181mm,22.403mm) on Top Layer And Track (50.546mm,22.403mm)(51.181mm,22.403mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R38-1(24.765mm,76.835mm) on Top Layer And Track (24.765mm,74.612mm)(24.765mm,76.835mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R39-1(27.686mm,76.709mm) on Top Layer And Track (27.686mm,74.612mm)(27.686mm,76.709mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R41-2(74.296mm,31.496mm) on Top Layer And Track (72.771mm,31.496mm)(74.296mm,31.496mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R4-2(82.931mm,14.046mm) on Top Layer And Track (82.55mm,12.802mm)(82.55mm,14.046mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R42-1(47.499mm,41.783mm) on Bottom Layer And Track (46.228mm,43.486mm)(47.499mm,42.215mm) on Bottom Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad R44-1(49.529mm,59.69mm) on Bottom Layer And Track (49.529mm,59.75mm)(53.991mm,59.817mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R44-2(47.879mm,59.69mm) on Bottom Layer And Track (46.736mm,60.223mm)(47.879mm,60.223mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R45-1(79.502mm,77.852mm) on Top Layer And Track (79.502mm,75.629mm)(79.502mm,77.852mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R47-1(81.915mm,77.851mm) on Top Layer And Track (81.915mm,75.629mm)(81.915mm,77.851mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R47-2(81.915mm,79.501mm) on Top Layer And Track (81.915mm,79.501mm)(81.915mm,84.303mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R48_S1-1(56.896mm,103.81mm) on Top Layer And Track (56.896mm,103.81mm)(56.896mm,104.699mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R48_S3-1(7.315mm,59.69mm) on Top Layer And Track (6.477mm,59.69mm)(7.315mm,59.69mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R48_S4-2(20.223mm,27.335mm) on Top Layer And Track (20.223mm,26.598mm)(20.223mm,27.335mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R48_S5-2(50.546mm,11.481mm) on Top Layer And Track (51.156mm,11.481mm)(52.095mm,10.541mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad R48_S6-1(84.612mm,21.687mm) on Top Layer And Track (84.612mm,21.582mm)(85.949mm,20.244mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R48_S7-1(100.635mm,53.467mm) on Top Layer And Track (100.635mm,53.467mm)(101.473mm,53.467mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R48_S7-2(98.755mm,53.467mm) on Top Layer And Track (98.755mm,54.127mm)(99.568mm,54.94mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad R48_S8-2(88.285mm,86.585mm) on Top Layer And Track (87.426mm,88.108mm)(88.285mm,87.249mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad R49_S1-2(48.895mm,99.568mm) on Top Layer And Track (48.895mm,99.568mm)(48.895mm,100.355mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R49_S2-1(20.828mm,82.55mm) on Top Layer And Track (20.955mm,82.55mm)(22.225mm,83.82mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad R49_S2-2(19.661mm,83.717mm) on Top Layer And Track (18.669mm,84.761mm)(19.661mm,83.769mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R49_S3-2(11.558mm,51.689mm) on Top Layer And Track (10.719mm,51.689mm)(11.558mm,51.689mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R49_S4-1(28.472mm,24.154mm) on Top Layer And Track (27.202mm,25.476mm)(28.472mm,24.206mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad R49_S4-2(27.305mm,22.987mm) on Top Layer And Track (26.289mm,21.971mm)(27.305mm,22.987mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R49_S5-2(58.801mm,13.589mm) on Top Layer And Track (58.801mm,11.938mm)(58.801mm,13.589mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R49_S6-1(86.487mm,30.988mm) on Top Layer And Track (85.217mm,29.742mm)(86.463mm,30.988mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad R49_S6-2(87.654mm,29.821mm) on Top Layer And Track (87.757mm,29.821mm)(88.662mm,28.916mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R49_S7-2(96.266mm,61.595mm) on Top Layer And Track (96.266mm,61.595mm)(97.003mm,61.595mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R49_S8-1(79.478mm,94.004mm) on Top Layer And Track (79.478mm,90.475mm)(79.478mm,94.004mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R49_S8-2(80.645mm,92.837mm) on Top Layer And Track (80.696mm,92.837mm)(81.762mm,91.771mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R50_S1-2(50.673mm,99.568mm) on Top Layer And Track (50.673mm,99.568mm)(50.673mm,100.355mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R50_S2-1(22.352mm,83.82mm) on Top Layer And Track (20.955mm,82.55mm)(22.225mm,83.82mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad R50_S2-2(21.185mm,84.987mm) on Top Layer And Track (20.016mm,86.158mm)(21.185mm,84.988mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R50_S2-2(21.185mm,84.987mm) on Top Layer And Track (21.185mm,84.987mm)(23.116mm,84.987mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R50_S3-2(11.557mm,53.594mm) on Top Layer And Track (10.719mm,53.594mm)(11.557mm,53.594mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R50_S4-1(27.202mm,25.551mm) on Top Layer And Track (27.202mm,25.476mm)(28.472mm,24.206mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad R50_S5-2(56.896mm,13.589mm) on Top Layer And Track (56.896mm,11.938mm)(56.896mm,13.589mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R50_S6-1(85.193mm,29.742mm) on Top Layer And Track (85.217mm,29.742mm)(86.463mm,30.988mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad R50_S6-2(86.36mm,28.575mm) on Top Layer And Track (84.328mm,28.575mm)(86.36mm,28.575mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R50_S6-2(86.36mm,28.575mm) on Top Layer And Track (86.385mm,28.575mm)(87.391mm,27.569mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R50_S7-2(96.266mm,59.817mm) on Top Layer And Track (96.266mm,59.817mm)(96.926mm,59.817mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R50_S8-1(80.899mm,88.138mm) on Top Layer And Track (80.899mm,88.138mm)(80.899mm,89.054mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R5-1(36.449mm,20.7mm) on Bottom Layer And Track (34.926mm,22.223mm)(36.449mm,20.7mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R51-1(82.931mm,61.849mm) on Bottom Layer And Track (77.749mm,61.849mm)(82.931mm,61.849mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R52-1(83.567mm,63.627mm) on Bottom Layer And Track (83.668mm,60.96mm)(83.668mm,62.992mm) on Bottom Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad R52-2(85.217mm,63.627mm) on Bottom Layer And Track (85.217mm,63.424mm)(86.944mm,63.424mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R6-2(19.177mm,29.971mm) on Bottom Layer And Track (19.177mm,29.971mm)(19.177mm,31.039mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R8-1(80.772mm,16.688mm) on Top Layer And Track (77.749mm,16.358mm)(80.772mm,16.688mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad R8-1(80.772mm,16.688mm) on Top Layer And Track (81.458mm,16.688mm)(82.22mm,15.926mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad R8-2(80.772mm,14.808mm) on Top Layer And Track (80.772mm,13.918mm)(80.772mm,14.808mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad R9-2(34.926mm,23.114mm) on Bottom Layer And Track (26.462mm,23.114mm)(34.926mm,23.114mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad S2-1(12.76mm,77.942mm) on Top Layer And Track (10.227mm,75.409mm)(12.76mm,77.942mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad S2-2(20.26mm,73.442mm) on Top Layer And Track (20.26mm,72.482mm)(20.26mm,73.442mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad S3-1(10.227mm,70.83mm) on Top Layer And Track (10.227mm,70.83mm)(10.227mm,75.409mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad S3-1(2.727mm,70.83mm) on Top Layer And Track (1.168mm,68.021mm)(1.803mm,70.83mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad S3-2(10.227mm,66.33mm) on Top Layer And Track (10.227mm,65.319mm)(10.227mm,66.33mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad S4-1(25.527mm,86.796mm) on Top Layer And Track (25.73mm,86.796mm)(25.73mm,93.32mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad S4-1(33.027mm,86.796mm) on Top Layer And Track (31.877mm,87.946mm)(33.027mm,86.796mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad S4-2(33.027mm,82.296mm) on Top Layer And Track (33.96mm,82.296mm)(34.087mm,82.169mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad U1-2(70.42mm,99.178mm) on Top Layer And Track (70.42mm,98.338mm)(70.917mm,97.841mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad U1-2(70.42mm,99.178mm) on Top Layer And Track (70.42mm,99.178mm)(71.69mm,99.178mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad U1-3(71.69mm,99.178mm) on Top Layer And Track (70.42mm,99.178mm)(71.69mm,99.178mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad U1-6(71.69mm,104.766mm) on Top Layer And Track (70.42mm,104.766mm)(71.69mm,104.766mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad U1-7(70.42mm,104.766mm) on Top Layer And Track (70.42mm,104.766mm)(71.69mm,104.766mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad U1-7(71.12mm,101.981mm) on Top Layer And Track (71.12mm,100.849mm)(71.69mm,100.279mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad U1-7(71.12mm,101.981mm) on Top Layer And Track (71.69mm,102.551mm)(71.69mm,104.766mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad U1-7(71.12mm,101.981mm) on Top Layer And Track (74.231mm,101.981mm)(74.549mm,98.298mm) on Top Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad U2_3.3v-4(24.13mm,54.483mm) on Bottom Layer And Track (24.13mm,54.483mm)(24.13mm,58.748mm) on Bottom Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad U4-5(31.877mm,100.413mm) on Top Layer And Track (31.877mm,100.609mm)(35.585mm,100.609mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad U4-8(28.067mm,100.413mm) on Top Layer And Track (27.185mm,100.413mm)(28.067mm,100.413mm) on Top Layer Track Entry to PAD from long side
+   Violation between SMD Entry Constraint: Between Pad U6-2(59.436mm,47.371mm) on Bottom Layer And Track (59.194mm,45.851mm)(59.436mm,47.371mm) on Bottom Layer Track Entry to PAD from not centre of Side
+   Violation between SMD Entry Constraint: Between Pad U7-8(83.566mm,38.722mm) on Top Layer And Track (83.566mm,37.897mm)(87.605mm,37.897mm) on Top Layer Track Entry to PAD from long side
+Rule Violations :209
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=0.508mm) (Conductor Width=0.254mm) (Air Gap=0.254mm) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=0.025mm) (Max=2.54mm) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=0.254mm) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.254mm) Between Arc (39.243mm,93.248mm) on Bottom Overlay And Pad MPU6050-3(50.038mm,90.17mm) on Multi-Layer [Bottom Overlay] to [Bottom Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.254mm < 0.254mm) Between Arc (94.686mm,71.325mm) on Top Overlay And Pad SP1-1(94.996mm,73.025mm) on Multi-Layer [Top Overlay] to [Top Solder] clearance [0.254mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.254mm) Between Pad BAT-1(29.738mm,10.328mm) on Multi-Layer And Track (27.561mm,11.144mm)(34.161mm,11.144mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.234mm < 0.254mm) Between Pad C16-1(75.438mm,78.441mm) on Multi-Layer And Track (74.11mm,72.721mm)(74.11mm,79.462mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.234mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.237mm < 0.254mm) Between Pad C16-1(75.438mm,78.441mm) on Multi-Layer And Track (74.11mm,79.462mm)(76.68mm,79.462mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.237mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.164mm < 0.254mm) Between Pad C16-1(75.438mm,78.441mm) on Multi-Layer And Track (76.68mm,72.721mm)(76.68mm,79.462mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.164mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.234mm < 0.254mm) Between Pad C16-2(75.438mm,73.741mm) on Multi-Layer And Track (74.11mm,72.721mm)(74.11mm,79.462mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.234mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.236mm < 0.254mm) Between Pad C16-2(75.438mm,73.741mm) on Multi-Layer And Track (74.11mm,72.721mm)(76.68mm,72.721mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.236mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.164mm < 0.254mm) Between Pad C16-2(75.438mm,73.741mm) on Multi-Layer And Track (76.68mm,72.721mm)(76.68mm,79.462mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.164mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.247mm < 0.254mm) Between Pad C26-1(91.44mm,57.657mm) on Top Layer And Text "C26" (92.326mm,57.709mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.247mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.1mm < 0.254mm) Between Pad C26-1(91.44mm,57.657mm) on Top Layer And Track (90.89mm,56.982mm)(90.89mm,56.682mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.1mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.124mm < 0.254mm) Between Pad C26-1(91.44mm,57.657mm) on Top Layer And Track (91.99mm,56.682mm)(91.99mm,56.982mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.124mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.147mm < 0.254mm) Between Pad C8-1(31.496mm,73.742mm) on Multi-Layer And Track (30.254mm,72.721mm)(30.254mm,79.462mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.147mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.237mm < 0.254mm) Between Pad C8-1(31.496mm,73.742mm) on Multi-Layer And Track (30.254mm,72.721mm)(32.824mm,72.721mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.237mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.25mm < 0.254mm) Between Pad C8-1(31.496mm,73.742mm) on Multi-Layer And Track (32.824mm,72.721mm)(32.824mm,79.462mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.25mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.107mm < 0.254mm) Between Pad Charger-3(13.201mm,38.774mm) on Multi-Layer And Track (14.867mm,39.167mm)(17.522mm,40.133mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.107mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.144mm < 0.254mm) Between Pad Charger-3(13.201mm,38.774mm) on Multi-Layer And Track (3.873mm,35.165mm)(11.672mm,38.004mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.144mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.07mm < 0.254mm) Between Pad D1-3(73.219mm,9.526mm) on Top Layer And Track (73.419mm,10.126mm)(73.419mm,10.526mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.07mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.07mm < 0.254mm) Between Pad D1-5(78.319mm,11.126mm) on Top Layer And Track (78.119mm,10.126mm)(78.119mm,10.526mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.07mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.253mm < 0.254mm) Between Pad D1-5(78.319mm,11.126mm) on Top Layer And Track (78.119mm,11.726mm)(78.119mm,12.226mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.253mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.237mm < 0.254mm) Between Pad Free-8(44.054mm,106.717mm) on Multi-Layer And Track (43.754mm,88.646mm)(43.754mm,104.146mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.237mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.049mm < 0.254mm) Between Pad LED5_S1-1(54.832mm,102.997mm) on Multi-Layer And Track (43.754mm,104.146mm)(64.008mm,104.146mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.049mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.237mm < 0.254mm) Between Pad LED5_S1-1(54.832mm,102.997mm) on Multi-Layer And Track (53.532mm,105.097mm)(54.332mm,104.297mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.237mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.237mm < 0.254mm) Between Pad LED5_S1-2(52.832mm,102.997mm) on Multi-Layer And Track (43.754mm,104.146mm)(64.008mm,104.146mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.237mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.236mm < 0.254mm) Between Pad LED5_S2-1(21.844mm,90.17mm) on Multi-Layer And Track (19.44mm,90.736mm)(20.571mm,90.736mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.236mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.236mm < 0.254mm) Between Pad LED5_S4-1(20.938mm,25.163mm) on Multi-Layer And Track (20.372mm,22.759mm)(20.372mm,23.89mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.236mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.237mm < 0.254mm) Between Pad LED5_S7-1(99.568mm,55.626mm) on Multi-Layer And Track (100.868mm,56.126mm)(101.668mm,56.926mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.237mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.226mm < 0.254mm) Between Pad MPU6050-8(62.738mm,90.17mm) on Multi-Layer And Text "C5" (63.228mm,89.383mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.226mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.241mm < 0.254mm) Between Pad P4_S1-1(56.388mm,108.204mm) on Multi-Layer And Text "BT1" (55.397mm,108.61mm) on Bottom Overlay [Bottom Overlay] to [Bottom Solder] clearance [0.241mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.239mm < 0.254mm) Between Pad S1-3(36.123mm,32.639mm) on Multi-Layer And Track (37.123mm,29.839mm)(37.123mm,35.439mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.239mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.055mm < 0.254mm) Between Pad S3-2(2.727mm,66.33mm) on Top Layer And Track (3.683mm,65.23mm)(3.683mm,71.93mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.055mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (0.232mm < 0.254mm) Between Pad SP1-1(94.996mm,73.025mm) on Multi-Layer And Track (94.686mm,70.825mm)(94.686mm,71.825mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.232mm]
+Rule Violations :32
+
+Processing Rule : Silk to Silk (Clearance=0.254mm) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mm) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mm) (Max=25.4mm) (Prefered=12.7mm) (All)
+Rule Violations :0
+
+
+Violations Detected : 500
+Waived Violations : 0
+Time Elapsed        : 00:00:04
