@@ -1,0 +1,12 @@
+Change Component Footprint: Designator=C8 Old Footprint=Cap - 10nF - 630V New Footprint=Cap - 100nF - 400V
+Change Component Footprint: Designator=C16 Old Footprint=Cap - 10nF - 630V New Footprint=Cap - 100nF - 400V
+Added Room: Name=Designator
+Added Room: Name=Designator_1
+Added Room: Name=Designator_2
+Added Room: Name=Designator_3
+Added Room: Name=Designator_4
+Added Room: Name=Designator_5
+Added Room: Name=Designator_6
+Added Room: Name=Designator_7
+Added Room: Name=Designator_8
+Added Room: Name=Sheet_1_Main_bord

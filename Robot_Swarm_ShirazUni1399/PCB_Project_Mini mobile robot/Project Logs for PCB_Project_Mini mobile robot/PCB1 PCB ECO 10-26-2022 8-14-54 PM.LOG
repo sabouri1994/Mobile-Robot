@@ -1,0 +1,54 @@
+Removed Pin From Net: NetName=5V Pin=C9-+
+Removed Pin From Net: NetName=5V Pin=C10-+
+Removed Pin From Net: NetName=3.3V Pin=C11-+
+Removed Pin From Net: NetName=3.3V Pin=C14-+
+Change Component Footprint: Designator=C9 Old Footprint=PANACAP-F-GENERIC New Footprint=CAP SMD 1000UF 16V
+Change Component Footprint: Designator=C10 Old Footprint=PANACAP-F-GENERIC New Footprint=CAP SMD 1000UF 16V
+Change Component Footprint: Designator=C11 Old Footprint=PANACAP-F-GENERIC New Footprint=CAP SMD 1000UF 16V
+Change Component Footprint: Designator=C14 Old Footprint=PANACAP-F-GENERIC New Footprint=CAP SMD 1000UF 16V
+Change Component Comment : Designator=C9 Old Comment=220uF-25V New Comment=220uF-50V
+Change Component Comment : Designator=C10 Old Comment=220uF-25V New Comment=220uF-50V
+Change Component Comment : Designator=C11 Old Comment=220uF-25V New Comment=220uF-50V
+Change Component Comment : Designator=C14 Old Comment=220uF-25V New Comment=220uF-50V
+Change Component Designator: OldDesignator=D? NewDesignator=D1
+Change Component Designator: OldDesignator=U? NewDesignator=U3
+Change component parameters: Designator = "C9" ("C9"); Footprint = "PANACAP-F-GENERIC"; UniqueID = "\EBPAVRMN" ("\EBPAVRMN")
+Change component parameters (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Link"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part. No"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "220uF-50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C10" ("C10"); Footprint = "PANACAP-F-GENERIC"; UniqueID = "\OHYDYANQ" ("\OHYDYANQ")
+Change component parameters (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Link"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part. No"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "220uF-50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C11" ("C11"); Footprint = "PANACAP-F-GENERIC"; UniqueID = "\BTJCPGOY" ("\BTJCPGOY")
+Change component parameters (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Link"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part. No"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "220uF-50V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "C14" ("C14"); Footprint = "PANACAP-F-GENERIC"; UniqueID = "\DBWONPPB" ("\DBWONPPB")
+Change component parameters (AddParameter): Name = "Data"; Value = "16-12-2016"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Designer"; Value = "Abbas Basereh"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Link"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Part. No"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "VALUE"; Value = "220uF-50V"; VariantName = "[No Variations]"
+Added Component: Designator=S10(SW-PB)
+Added Pin To Net: NetName=5V Pin=C9-1
+Added Pin To Net: NetName=5V Pin=C10-1
+Added Pin To Net: NetName=3.3V Pin=C11-1
+Added Pin To Net: NetName=3.3V Pin=C14-1
+Change Net Name : Old Net Name=NetD?_1 New Net Name=NetD1_1
+Change Net Name : Old Net Name=NetD?_2 New Net Name=NetD1_2
+Change Net Name : Old Net Name=NetD?_3 New Net Name=NetD1_3
+Change Net Name : Old Net Name=NetD?_4 New Net Name=NetD1_4
+Change Net Name : Old Net Name=NetD?_5 New Net Name=NetD1_5
+Change Net Name : Old Net Name=NetD?_6 New Net Name=NetD1_6
+Added Member To Class: ClassName=Sheet_1_Main_bord Member=Component S10 Switch PB

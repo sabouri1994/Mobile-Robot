@@ -1,0 +1,19 @@
+Remove Pin=D5-1 From Net=SDA
+Remove Pin=D5-2 From Net=SCL
+Remove Pin=P1-3 From Net=SCL
+Remove Pin=P1-4 From Net=SDA
+Remove Pin=P2-3 From Net=SCL
+Remove Pin=P2-4 From Net=SDA
+Remove Pin=R22-2 From Net=SDA
+Remove Pin=R23-2 From Net=SCL
+Remove Pin=TB6612-15 From Net=PWM_R
+Remove Pin=TB6612-23 From Net=PWM_L
+Remove Pin=U3-11 From Net=SDA
+Remove Pin=U3-14 From Net=SCL
+Remove Pin=U4-5 From Net=SDA
+Remove Pin=U4-6 From Net=SCL
+Remove Pin=U5-10 From Net=PWM_L
+Remove Pin=U7-10 From Net=PWM_R
+Change Component Designator: OldDesignator=D1 NewDesignator=D?
+Change Component Designator: OldDesignator=TB6612 NewDesignator=*
+Change Component Designator: OldDesignator=U3 NewDesignator=U?
